@@ -1,3 +1,4 @@
+
 // Wenn wir auf der Übersichtsseite sind
 if (document.getElementById("tage-container")) {
     
@@ -75,5 +76,4 @@ if (document.getElementById("tage-container")) {
         }
       });
   }
-  
   
