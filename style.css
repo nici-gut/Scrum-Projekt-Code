@@ -57,7 +57,7 @@
   }
   
   .hero {
-    background: url('Anfangsbild.png') no-repeat center center/cover;
+    background: url('Bilder/Anfangsbild.png') no-repeat center center/cover;
     width: 100%;
     height: 70vh;
     display: flex;
