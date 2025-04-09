@@ -1,0 +1,120 @@
+{
+    "wochen": [
+      {
+        "titel": "Woche 1–2: Grundlagen & Anpassung",
+        "tage": [
+          {
+            "tag": 1,
+            "fokus": "Fingerkraft & Haltekraft (Griffbrett)",
+            "übungen": [
+              {
+                "name": "7/3 Intervall-Hänge",
+                "beschreibung": "7 Sek. hängen, 3 Sek. Pause",
+                "wiederholungen": "6–8"
+              },
+              {
+                "name": "Einarmige Haltearbeit",
+                "beschreibung": "10–15 Sek. pro Arm, größere Leiste"
+              },
+              {
+                "name": "Klimmzüge am Griffbrett",
+                "wiederholungen": "3x5",
+                "beschreibung": "mittlere bis breite Griffe"
+              }
+            ]
+          },
+          {
+            "tag": 2,
+            "fokus": "Oberkörper & Körperspannung (Ringe, Kugeln)",
+            "übungen": [
+              {
+                "name": "Klimmzüge an Kugeln",
+                "wiederholungen": "3x3–5"
+              },
+              {
+                "name": "Rudern an Ringen",
+                "beschreibung": "schräge Position",
+                "wiederholungen": "3x8–12"
+              },
+              {
+                "name": "Hängen an Kugeln",
+                "dauer": "3x20 Sek."
+              }
+            ]
+          },
+          {
+            "tag": 3,
+            "fokus": "Maximalkraft Finger (Griffbrett)",
+            "übungen": [
+              {
+                "name": "Max-Hänge",
+                "beschreibung": "5 Sek.",
+                "sätze": "3–4",
+                "intensität": "maximale Belastung"
+              },
+              {
+                "name": "Tuck-Front-Lever-Halten an Ringen",
+                "wiederholungen": "3x10 Sek."
+              },
+              {
+                "name": "Bizeps-Curls mit Ringen",
+                "wiederholungen": "3x8"
+              }
+            ]
+          },
+          {
+            "tag": 4,
+            "fokus": "Pause oder leichtes Stretching"
+          },
+          {
+            "tag": 5,
+            "fokus": "Maximalkraft Oberkörper (Klimmzugstange, Ringe)",
+            "übungen": [
+              {
+                "name": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
+                "wiederholungen": "3x3–5"
+              },
+              {
+                "name": "Ring Dips",
+                "wiederholungen": "3x8–10"
+              },
+              {
+                "name": "L-Sit an Klimmzugstange oder Ringen",
+                "wiederholungen": "3x10 Sek."
+              }
+            ]
+          },
+          {
+            "tag": 6,
+            "fokus": "Griffkraft & Belastungsresistenz",
+            "übungen": [
+              {
+                "name": "Hängezeit am Griffbrett",
+                "beschreibung": "verschiedene Griffe",
+                "wiederholungen": "3x20 Sek."
+              },
+              {
+                "name": "Shrugs an Klimmzugstange",
+                "beschreibung": "Schulteraktivierung",
+                "wiederholungen": "3x10"
+              },
+              {
+                "name": "Schulter-Stabilisationsübungen mit Ringen",
+                "wiederholungen": "3x8"
+              }
+            ]
+          },
+          {
+            "tag": 7,
+            "fokus": "Regeneration & Mobility",
+            "übungen": [
+              {
+                "name": "Dehnen, leichte Schulterübungen"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
