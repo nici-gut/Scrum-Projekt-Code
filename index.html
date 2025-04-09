@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ClimbTime Kletter Trainingsapp</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <img src="Bilder/ClimbTime Logo.png" alt="ClimbTime Logo">
     <nav>
-      <a href="#start"> Start </a>
+      <a href="#start">Start</a>
       <a href="#trainings">Woche 1/2</a>
       <a href="#workout2">Woche 3/4</a>
       <a href="#workout3">Woche 5/6</a>
@@ -24,74 +24,39 @@
         Maximale<br>Performance
       </h1>
       <p style="margin-top: 1rem; font-size: 1.0rem; max-width: 300px;">
-        Deine App für maximale Trainingsleistung. Erreiche neue Höhen, indem du deinen Trainingsplan mit wöchentlischer Steigerung wählst.
+        Deine App für maximale Trainingsleistung. Erreiche neue Höhen, indem du deinen Trainingsplan mit wöchentlicher Steigerung wählst.
       </p>
       <button id="startBtn" class="btn" style="margin-top: 1.5rem;">Jetzt Starten</button>
     </div>
   </section>
 
-  <!-- Erstes Karussell -->
+  <!-- Woche 1/2 -->
   <section id="trainings">
     <h1 style="font-size: 2.0rem; margin-top: 4rem;">Woche 1/2</h1>
     <div class="carousel-container">
       <button class="arrow-button arrow-left" id="prevBtn"></button>
       <div class="carousel-track-wrapper">
         <div class="carousel-track" id="carouselTrack">
-          <a class="carousel-item" href="seite1.html"><img src="Bilder/Montag.png" alt="Montag" /></a>
-          <a class="carousel-item" href="seite2.html"><img src="Bilder/Dienstag.png" alt="Dienstag" /></a>
-          <a class="carousel-item" href="seite3.html"><img src="Bilder/Mittwoch.png" alt="Mittwoch" /></a>
-          <a class="carousel-item" href="seite4.html"><img src="Bilder/Donnerstag.png" alt="Donnerstag" /></a>
-          <a class="carousel-item" href="seite5.html"><img src="Bilder/Freitag.png" alt="Freitag" /></a>
-          <a class="carousel-item" href="seite6.html"><img src="Bilder/Samstag.png" alt="Samstag" /></a>
-          <a class="carousel-item" href="seite7.html"><img src="Bilder/Sonntag.png" alt="Sonntag" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('montag')"><img src="Bilder/Montag.png" alt="Montag" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('dienstag')"><img src="Bilder/Dienstag.png" alt="Dienstag" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('mittwoch')"><img src="Bilder/Mittwoch.png" alt="Mittwoch" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('donnerstag')"><img src="Bilder/Donnerstag.png" alt="Donnerstag" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('freitag')"><img src="Bilder/Freitag.png" alt="Freitag" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('samstag')"><img src="Bilder/Samstag.png" alt="Samstag" /></a>
+          <a class="carousel-item" href="javascript:void(0)" onclick="showDay('sonntag')"><img src="Bilder/Sonntag.png" alt="Sonntag" /></a>
         </div>
       </div>
       <button class="arrow-button arrow-right" id="nextBtn"></button>
       <div class="dots" id="carouselDots"></div>
     </div>
   </section>
-
-  <!-- Zweites Karussell -->
-  <section id="workout2">
-    <h1 style="font-size: 2.0rem; margin-top: 4rem;">Woche 3/4</h1>
-    <div class="carousel-container">
-      <button class="arrow-button arrow-left" id="prevBtn2"></button>
-      <div class="carousel-track-wrapper">
-        <div class="carousel-track" id="carouselTrack2">
-          <a class="carousel-item" href="seite1.html"><img src="Bilder/Montag.png" alt="Montag" /></a>
-          <a class="carousel-item" href="seite2.html"><img src="Bilder/Dienstag.png" alt="Dienstag" /></a>
-          <a class="carousel-item" href="seite3.html"><img src="Bilder/Mittwoch.png" alt="Mittwoch" /></a>
-          <a class="carousel-item" href="seite4.html"><img src="Bilder/Donnerstag.png" alt="Donnerstag" /></a>
-          <a class="carousel-item" href="seite5.html"><img src="Bilder/Freitag.png" alt="Freitag" /></a>
-          <a class="carousel-item" href="seite6.html"><img src="Bilder/Samstag.png" alt="Samstag" /></a>
-          <a class="carousel-item" href="seite7.html"><img src="Bilder/Sonntag.png" alt="Sonntag" /></a>
-        </div>
-      </div>
-      <button class="arrow-button arrow-right" id="nextBtn2"></button>
-      <div class="dots" id="carouselDots2"></div>
-    </div>
+  <!-- Dynamischer Inhaltsbereich für den jeweiligen Tag -->
+  <section id="dayContent" style="display:none; padding: 2rem;">
+    <h1 id="dayTitle">Tag</h1>
+    <p id="dayDescription">Beschreibung für den Tag</p>
+    <button onclick="backToCarousel()">Zurück</button>
   </section>
 
-  <!-- Drittes Karussell -->
-  <section id="workout3">
-    <h1 style="font-size: 2.0rem; margin-top: 4rem;">Woche 5/6</h1>
-    <div class="carousel-container">
-      <button class="arrow-button arrow-left" id="prevBtn3"></button>
-      <div class="carousel-track-wrapper">
-        <div class="carousel-track" id="carouselTrack3">
-          <a class="carousel-item" href="seite1.html"><img src="Bilder/Montag.png" alt="Montag" /></a>
-          <a class="carousel-item" href="seite2.html"><img src="Bilder/Dienstag.png" alt="Dienstag" /></a>
-          <a class="carousel-item" href="seite3.html"><img src="Bilder/Mittwoch.png" alt="Mittwoch" /></a>
-          <a class="carousel-item" href="seite4.html"><img src="Bilder/Donnerstag.png" alt="Donnerstag" /></a>
-          <a class="carousel-item" href="seite5.html"><img src="Bilder/Freitag.png" alt="Freitag" /></a>
-          <a class="carousel-item" href="seite6.html"><img src="Bilder/Samstag.png" alt="Samstag" /></a>
-          <a class="carousel-item" href="seite7.html"><img src="Bilder/Sonntag.png" alt="Sonntag" /></a>
-        </div>
-      </div>
-      <button class="arrow-button arrow-right" id="nextBtn3"></button>
-      <div class="dots" id="carouselDots3"></div>
-    </div>
-  </section>
   <script src="script.js"></script>
 </body>
 </html>
