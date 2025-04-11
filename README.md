@@ -12,11 +12,11 @@ Jeder neue Arbeitsschritt muss in einem neuen Branch erfolgen.
 
 Benenne deinen Branch beschreibend, z. B.:
 
-- feature/<dein-name>-neue-funktion
+- ```feature/<dein-name>-neue-funktion```
 
-- bugfix/<dein-name>-fehler-beheben
+- ```bugfix/<dein-name>-fehler-beheben```
 
-- hotfix/<dein-name>-kritischer-fehler
+- ```hotfix/<dein-name>-kritischer-fehler```
 
 Neuen Branch erstellen und direkt wechseln
 
