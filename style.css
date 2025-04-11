@@ -209,3 +209,8 @@
     background-color: #efeeee;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
