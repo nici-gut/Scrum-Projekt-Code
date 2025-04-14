@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -9,16 +8,13 @@
 <body>
   <h1 id="überschrift">Trainingstag</h1>
   <ul id="übungen"></ul>
-  <h2 id="fokus"></h2>
-
-
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const woche = params.get('woche');
     const tag = params.get('tag');
 
-    document.getElementById('überschrift').innerText = `Training für ${tag} (${woche})`;
+    document.getElementById('überschrift').innerText = `Training für ${tag}`;
 
     fetch('data/trainingsplan.json')
       .then(response => response.json())
