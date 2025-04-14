@@ -1,3 +1,33 @@
+let time = 10 * 60; // 10 Minuten in Sekunden
+let interval = null;
+
+function updateDisplay() {
+  const minutes = Math.floor(time / 60);
+  const seconds = time % 60;
+  const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
+  document.getElementById('timer').textContent = `${minutes}:${formattedSeconds}`;
+}
+
+//Timer
+function startTimer() {
+  if (interval) return; // verhindert mehrfaches Starten
+  interval = setInterval(() => {
+    if (time > 0) {
+      time--;
+      updateDisplay();
+    } else {
+      clearInterval(interval);
+      interval = null;
+    }
+  }, 1000);
+}
+function stopTimer() {
+  clearInterval(interval);
+  interval = null;
+  time = 10 * 60; // Reset auf 10 Minuten
+  updateDisplay();
+}
+
 function initCarousel(trackId, prevId, nextId, dotsId) {
   const track = document.getElementById(trackId);
   const prevBtn = document.getElementById(prevId);
@@ -43,22 +73,23 @@ window.addEventListener('load', () => {
   initCarousel('carouselTrack', 'prevBtn', 'nextBtn', 'carouselDots');
   initCarousel('carouselTrack2', 'prevBtn2', 'nextBtn2', 'carouselDots2');
   initCarousel('carouselTrack3', 'prevBtn3', 'nextBtn3', 'carouselDots3');
+  updateDisplay(); // Timer beim Laden anzeigen
 });
+
 document.getElementById("startBtn").addEventListener("click", function () {
   document.getElementById("trainings").scrollIntoView({ behavior: "smooth" });
 });
 
-// Funktion, die den Inhalt basierend auf dem angeklickten Tag anzeigt
 function showDay(day) {
   const dayContent = document.getElementById('dayContent');
   const dayTitle = document.getElementById('dayTitle');
   const dayDescription = document.getElementById('dayDescription');
 
-  // Verstecke die Karussell-Div und zeige den Tag-Content
   document.getElementById('trainings').style.display = 'none';
   dayContent.style.display = 'block';
 
-  // Dynamischer Inhalt basierend auf dem Tag
+  startTimer(); // Timer starten, wenn Tag angezeigt wird
+
   switch (day) {
     case 'montag':
       dayTitle.textContent = 'Montag – Maximalkraft';
@@ -94,8 +125,8 @@ function showDay(day) {
   }
 }
 
-// Funktion, um zurück zur Karussellansicht zu gehen
 function backToCarousel() {
   document.getElementById('trainings').style.display = 'block';
   document.getElementById('dayContent').style.display = 'none';
+  stopTimer(); // Timer stoppen und zurücksetzen
 }
