@@ -8,14 +8,17 @@
 <body>
   <h1 id="überschrift">Trainingstag</h1>
   <ul id="übungen"></ul>
+  <button id="starteTraining">Training starten</button>
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const woche = params.get('woche');
     const tag = params.get('tag');
 
+    // Überschrift setzen
     document.getElementById('überschrift').innerText = `Training für ${tag}`;
 
+    // Trainingsdaten aus JSON laden
     fetch('data/trainingsplan.json')
       .then(response => response.json())
       .then(data => {
@@ -25,13 +28,20 @@
         if (übungen && übungen.length > 0) {
           übungen.forEach(übung => {
             const li = document.createElement('li');
-            li.textContent = übung;
+            li.textContent = übung.exercise; // Anpassung an die JSON-Struktur
             liste.appendChild(li);
           });
         } else {
           liste.innerHTML = '<li>Keine Trainingsdaten gefunden.</li>';
         }
       });
+
+    // Weiterleitung zur Trainingsseite
+    document.getElementById('starteTraining').addEventListener('click', () => {
+      const week = new URLSearchParams(window.location.search).get('woche');
+      const day = new URLSearchParams(window.location.search).get('tag');
+      window.location.href = `training.html?week=${week}&day=${day}`;
+    });
   </script>
 </body>
 </html>
