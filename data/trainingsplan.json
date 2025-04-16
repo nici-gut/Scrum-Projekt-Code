@@ -1,49 +1,136 @@
 {
   "Woche 1/2": {
     "Montag": [
-      "7/3 Intervall-Hänge (7 Sek. hängen, 3 Sek. Pause) – 6–8 Wiederholungen",
-      "Einarmige Haltearbeit (10–15 Sek. pro Arm, größere Leiste)",
-      "Klimmzüge am Griffbrett – 3x5 (mittlere bis breite Griffe)"
+      {
+        "exercise": "7/3 Intervall-Hänge",
+        "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
+        "video": "videos/Level2.mp4"
+      },
+      {
+        "exercise": "Einarmige Haltearbeit",
+        "description": "10–15 Sekunden pro Arm, größere Leiste",
+        "video": "videos/haltearbeit.mp4"
+      },
+      {
+        "exercise": "Klimmzüge am Griffbrett",
+        "description": "3x5, mittlere bis breite Griffe",
+        "video": "videos/klimmzug-griffbrett.mp4"
+      }
     ],
     "Dienstag": [
-      "Klimmzüge an Kugeln – 3x3–5 Wiederholungen",
-      "Rudern an Ringen (schräge Position) – 3x8–12",
-      "Hängen an Kugeln – 3x20 Sek."
+      {
+        "exercise": "Klimmzüge an Kugeln",
+        "description": "3x3–5 Wiederholungen",
+        "video": "videos/klimmzuege-kugeln.mp4"
+      },
+      {
+        "exercise": "Rudern an Ringen",
+        "description": "Schräge Position – 3x8–12",
+        "video": "videos/rudern-ringe.mp4"
+      },
+      {
+        "exercise": "Hängen an Kugeln",
+        "description": "3x20 Sekunden",
+        "video": "videos/haengen-kugeln.mp4"
+      }
     ],
     "Mittwoch": [
-      "Max-Hänge (5 Sek.) – 3–4 Sätze mit maximaler Belastung",
-      "Tuck-Front-Lever-Halten an Ringen – 3x10 Sek.",
-      "Bizeps-Curls mit Ringen – 3x8"
+      {
+        "exercise": "Max-Hänge",
+        "description": "5 Sekunden – 3–4 Sätze mit maximaler Belastung",
+        "video": "videos/max-haenge.mp4"
+      },
+      {
+        "exercise": "Tuck-Front-Lever-Halten",
+        "description": "An Ringen – 3x10 Sekunden",
+        "video": "videos/tuck-front-lever.mp4"
+      },
+      {
+        "exercise": "Bizeps-Curls mit Ringen",
+        "description": "3x8",
+        "video": "videos/curls-ringe.mp4"
+      }
     ],
     "Donnerstag": [
-      "Pause oder leichtes Stretching"
+      {
+        "exercise": "Pause oder leichtes Stretching",
+        "description": "Optional Mobility-Training",
+        "video": "videos/stretching.mp4"
+      }
     ],
     "Freitag": [
-      "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge – 3x3–5",
-      "Ring Dips – 3x8–10",
-      "L-Sit an Klimmzugstange oder Ringen – 3x10 Sek."
+      {
+        "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
+        "description": "3x3–5 Wiederholungen",
+        "video": "videos/archer-pullups.mp4"
+      },
+      {
+        "exercise": "Ring Dips",
+        "description": "3x8–10",
+        "video": "videos/ring-dips.mp4"
+      },
+      {
+        "exercise": "L-Sit",
+        "description": "An Klimmzugstange oder Ringen – 3x10 Sekunden",
+        "video": "videos/l-sit.mp4"
+      }
     ],
     "Samstag": [
-      "Hängezeit am Griffbrett (verschiedene Griffe) – 3x20 Sek.",
-      "Shrugs an Klimmzugstange (Schulteraktivierung) – 3x10",
-      "Schulter-Stabilisationsübungen mit Ringen – 3x8"
+      {
+        "exercise": "Hängezeit am Griffbrett",
+        "description": "Verschiedene Griffe – 3x20 Sekunden",
+        "video": "videos/haengezeit-griffbrett.mp4"
+      },
+      {
+        "exercise": "Shrugs an Klimmzugstange",
+        "description": "Schulteraktivierung – 3x10",
+        "video": "videos/shrugs.mp4"
+      },
+      {
+        "exercise": "Schulter-Stabilisationsübungen mit Ringen",
+        "description": "3x8",
+        "video": "videos/stabilisation-ringe.mp4"
+      }
     ],
     "Sonntag": [
-      "Dehnen, leichte Schulterübungen"
+      {
+        "exercise": "Dehnen & leichte Schulterübungen",
+        "description": "Regeneration & Mobility",
+        "video": "videos/mobility.mp4"
+      }
     ]
   },
   "Woche 3/4": {
     "Anpassungen": [
-      "Erhöhe die Hängezeiten (z. B. 10/5 anstelle von 7/3)",
-      "Steigere die Belastung (z. B. Zusatzgewicht bei Klimmzügen oder tiefere Ringe bei Dips)",
-      "Setze gezielt Pausenzeiten für mehr Intensität (1–2 Min. zwischen den Sätzen)"
+      {
+        "exercise": "Hängezeiten erhöhen",
+        "description": "Z. B. 10/5 anstelle von 7/3"
+      },
+      {
+        "exercise": "Belastung steigern",
+        "description": "Zusatzgewicht bei Klimmzügen oder tiefere Ringe bei Dips"
+      },
+      {
+        "exercise": "Gezielte Pausen",
+        "description": "1–2 Minuten zwischen den Sätzen"
+      }
     ]
   },
   "Woche 5/6": {
     "Anpassungen": [
-      "Kürzere Wiederholungen mit höherer Intensität (z. B. 3x max. 3 Sek. Halten statt 10 Sek.)",
-      "Mehr Explosivität (Dynamische Klimmzüge, explosive Ring-Dips)",
-      "Spezifische Belastung (z. B. Klettern an der Klimmzugstange mit Fingerwechsel)"
+      {
+        "exercise": "Kürzere Wiederholungen, höhere Intensität",
+        "description": "Z. B. 3x max. 3 Sekunden Halten statt 10 Sek."
+      },
+      {
+        "exercise": "Mehr Explosivität",
+        "description": "Dynamische Klimmzüge, explosive Ring-Dips"
+      },
+      {
+        "exercise": "Spezifische Belastung",
+        "description": "Z. B. Klettern an der Klimmzugstange mit Fingerwechsel"
+      }
     ]
   }
 }
+
