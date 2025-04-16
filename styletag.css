@@ -1,44 +1,140 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    margin: 0;
-    padding: 20px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
+:root {
+  --main-orange: #ff5100;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #fff, #ffffff);
+  margin: 0;
+  padding: 100px 20px 40px; /* Platz für den fixierten Header */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+  background: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+header img {
+  height: 50px;
+}
+
+header nav {
+  display: flex;
+  gap: 25px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: var(--main-orange);
+}
+
+/* ÜBERSCHRIFT */
+#überschrift {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  margin-top: -0.5cm;
+  text-align: center;
+}
+
+/* ÜBUNGSLISTE */
+#übungen {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* EINZELNE ÜBUNGSKARTE */
+#übungen li {
+  background-color: var(--white);
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px 24px;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#übungen li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* PLAY BUTTON */
+.play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: var(--main-orange);
+  border-radius: 50%;
+  text-decoration: none;
+  margin-top: 40px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.play-icon {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
   #überschrift {
     font-size: 2rem;
-    color: #333;
-    margin-bottom: 0.2em;
-    text-align: center;
-    padding: 20px 20px;
-  }
-
-  #fokus {
-    font-size: 1.2rem;
-    color: #666;
-    margin: 0 auto 1.5em;
-    text-align: center;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 0.5em;
-    max-width: 600px;
-  }
-
-  #übungen {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 600px;
   }
 
   #übungen li {
-    background-color: #ffa726; /* Orange */
-    padding: 16px 20px;
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    color: #fff;
     font-size: 1rem;
-    font-weight: 500;
+    padding: 16px 20px;
   }
+
+  header nav {
+    gap: 15px;
+  }
+
+  header a {
+    font-size: 16px;
+  }
+}
