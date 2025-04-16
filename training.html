@@ -11,21 +11,48 @@
     <h1 id="übungen">Übungstitel</h1>
     <p id="beschreibung">Beschreibung der Übung</p>
 
-    <video id="uebungsvideo" controls style="display: none; width: 100%; max-width: 600px;">
-      <source src="" type="video/mp4">
-      Dein Browser unterstützt dieses Videoformat nicht.
-    </video>
-
-    <div class="timer">
-      <span id="zeit">00:00</span>
-      <button id="startBtn">Start</button>
-      <button id="pauseBtn">Pause</button>
-      <button id="resetBtn">Stopp</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="video-wrapper">
+      <video id="uebungsvideo" controls style="display: none;">
+        <source src="" type="video/mp4">
+        Dein Browser unterstützt dieses Videoformat nicht.
+      </video>
     </div>
-
-    <button id="weiterBtn" style="display: none; margin-top: 20px;">Weiter</button>
-  </div>
-
+    <br>
+    <div class="timer-row">
+      <div class="timer-controls">
+        <span id="zeit">00:00</span>
+    
+        <button id="startBtn" class="round-button" title="Start">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <polygon points="5,3 19,12 5,21" />
+          </svg>
+        </button>
+    
+        <button id="pauseBtn" class="round-button" title="Pause">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <rect x="6" y="4" width="4" height="16" />
+            <rect x="14" y="4" width="4" height="16" />
+          </svg>
+        </button>
+    
+        <button id="resetBtn" class="round-button" title="Stopp">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <rect x="6" y="6" width="12" height="12" />
+          </svg>
+        </button>
+      </div>
+    
+      <div class="weiter-container">
+        <button id="weiterBtn" class="weiter-button" style="display: none;">Weiter</button>
+      </div>
+    </div>
+    
+      
+    
   <script src="training.js"></script>
 </body>
 </html>
