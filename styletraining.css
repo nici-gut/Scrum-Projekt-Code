@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+  --main-orange: #ff5100;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #fff, #ffffff);
+  margin: 0;
+  padding: 60px 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#training-container {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+h1#übungen {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black; /* Schwarz statt orange */
+  margin-bottom: 16px;
+}
+
+#beschreibung {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+video#uebungsvideo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Timer-Bereich inkl. Weiter-Button */
+.timer-row {
+    display: flex;
+    justify-content: space-between; /* Links & rechts */
+    align-items: center; /* Vertikal zentriert */
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .timer-controls {
+    display: flex;
+    justify-content: center; /* Steuerbuttons zentrieren im Block */
+    align-items: center;
+    gap: 20px;
+    flex: 1; /* Nimmt den verfügbaren Platz */
+  }
+
+/* Runde Button-Styles für Timer */
+.round-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--main-orange);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.round-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+/* Weiter-Button Container */
+.weiter-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+  }
+
+.weiter-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: var(--main-orange);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.weiter-button:hover {
+  background-color: #e04a00;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 600px) {
+  h1#übungen {
+    font-size: 2rem;
+  }
+
+  #beschreibung {
+    font-size: 1rem;
+  }
+
+  .timer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weiter-button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .round-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
