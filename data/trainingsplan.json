@@ -2,18 +2,32 @@
   "Woche 1/2": {
     "Montag": [
       {
+<<<<<<< HEAD
         "exercise": "7/3 Intervall-Hänge",
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
+=======
+        "exercise": "7/3 Intervall-Hängen",
+        "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
+        "instructions": "Ausführung: Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung. Muskelgruppen: Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/Level2.mp4"
       },
       {
         "exercise": "Einarmige Haltearbeit",
         "description": "10–15 Sekunden pro Arm, größere Leiste",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Halte dich mit einer Hand an einer größeren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung. Muskelgruppen: Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/haltearbeit.mp4"
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
         "description": "3x5, mittlere bis breite Griffe",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Ziehe dich mit kontrollierter Bewegung an mittleren bis breiten Griffen nach oben, ohne Schwung – Schultern aktiv, Körper in Spannung. Muskelgruppen: Latissimus, Bizeps, Unterarme, Trapez, Rhomboiden.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/klimmzug-griffbrett.mp4"
       }
     ],
@@ -21,16 +35,28 @@
       {
         "exercise": "Klimmzüge an Kugeln",
         "description": "3x3–5 Wiederholungen",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich. Muskelgruppen: Latissimus, Bizeps, Griffmuskulatur, Schultern.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/klimmzuege-kugeln.mp4"
       },
       {
         "exercise": "Rudern an Ringen",
         "description": "Schräge Position – 3x8–12",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung. Muskelgruppen: Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/rudern-ringe.mp4"
       },
       {
         "exercise": "Hängen an Kugeln",
         "description": "3x20 Sekunden",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil. Muskelgruppen: Unterarme, Fingerbeuger, Schulterstabilisatoren, Core.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/haengen-kugeln.mp4"
       }
     ],
@@ -38,16 +64,175 @@
       {
         "exercise": "Max-Hänge",
         "description": "5 Sekunden – 3–4 Sätze mit maximaler Belastung",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Hänge dich für 5 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung. Muskelgruppen: Fingerbeuger, Unterarme, Core (isometrisch).",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/max-haenge.mp4"
       },
       {
         "exercise": "Tuck-Front-Lever-Halten",
         "description": "An Ringen – 3x10 Sekunden",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Ziehe deine Knie zur Brust und halte deinen Körper waagerecht an den Ringen – Schultern tief, Core maximal angespannt. Muskelgruppen: Latissimus, Bauchmuskeln, Schultern, Rückenstrecker.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
         "video": "videos/tuck-front-lever.mp4"
       },
       {
         "exercise": "Bizeps-Curls mit Ringen",
         "description": "3x8",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt. Muskelgruppen: Bizeps, Unterarme, Schulterstabilisatoren.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/curls-ringe.mp4"
+      }
+    ],
+    "Donnerstag": [
+      {
+        "exercise": "Pause oder leichtes Stretching",
+        "description": "Optional Mobility-Training",
+<<<<<<< HEAD
+=======
+        "instructions": "Nutze den Tag zur aktiven Regeneration. Ausführung: Leichtes Stretching für Schultern, Rücken und Beine oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt. Muskelgruppen: Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/stretching.mp4"
+      }
+    ],
+    "Freitag": [
+      {
+        "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
+        "description": "3x3–5 Wiederholungen",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Ziehe dich einseitig hoch, während der andere Arm nur leicht unterstützt – Körperspannung und Kontrolle stehen im Fokus. Muskelgruppen: Latissimus, Bizeps, Core, Schulterstabilisatoren.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/archer-pullups.mp4"
+      },
+      {
+        "exercise": "Ring Dips",
+        "description": "3x8–10",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben. Muskelgruppen: Brust, Trizeps, Schultern, Core.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/ring-dips.mp4"
+      },
+      {
+        "exercise": "L-Sit",
+        "description": "An Klimmzugstange oder Ringen – 3x10 Sekunden",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen. Muskelgruppen: Core (Bauch, Hüftbeuger), Schultern, Trizeps.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/l-sit.mp4"
+      }
+    ],
+    "Samstag": [
+      {
+        "exercise": "Hängezeit am Griffbrett",
+        "description": "Verschiedene Griffe – 3x20 Sekunden",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Hänge dich an verschiedene Griffarten am Board (z. B. Crimps, Sloper) und halte möglichst gleichmäßig mit aktiver Schulter. Muskelgruppen: Fingerbeuger, Unterarme, Schultern (isometrisch).",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/haengezeit-griffbrett.mp4"
+      },
+      {
+        "exercise": "Shrugs an Klimmzugstange",
+        "description": "Schulteraktivierung – 3x10",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme. Muskelgruppen: Trapez, Schulterblattmuskulatur, unterer Rücken.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/shrugs.mp4"
+      },
+      {
+        "exercise": "Schulter-Stabilisationsübungen mit Ringen",
+        "description": "3x8",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen. Muskelgruppen: Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/stabilisation-ringe.mp4"
+      }
+    ],
+    "Sonntag": [
+      {
+        "exercise": "Dehnen & leichte Schulterübungen",
+        "description": "Regeneration & Mobility",
+<<<<<<< HEAD
+=======
+        "instructions": "Ausführung: Mobilisiere Schultern und Wirbelsäule durch dynamische Dehnungen und leichte Kräftigungsübungen wie Wand-Slides oder Armkreise. Muskelgruppen: Fokus auf Beweglichkeit und Gelenkpflege, keine Kraftbelastung.",
+>>>>>>> origin/feature/Nicole-Trainingsseite
+        "video": "videos/mobility.mp4"
+      }
+    ]
+  },
+  "Woche 3/4": {
+<<<<<<< HEAD
+    "Anpassungen": [
+      {
+        "exercise": "Hängezeiten erhöhen",
+        "description": "Z. B. 10/5 anstelle von 7/3"
+      },
+      {
+        "exercise": "Belastung steigern",
+        "description": "Zusatzgewicht bei Klimmzügen oder tiefere Ringe bei Dips"
+      },
+      {
+        "exercise": "Gezielte Pausen",
+        "description": "1–2 Minuten zwischen den Sätzen"
+=======
+    "Montag": [
+      {
+        "exercise": "10/2 Intervall-Hängen",
+        "description": "10 Sekunden hängen, 2 Sekunden Pause – 8–10 Wiederholungen",
+        "video": "videos/Level2.mp4"
+      },
+      {
+        "exercise": "Einarmige Haltearbeit",
+        "description": "15–20 Sekunden pro Arm, kleinere Leiste",
+        "video": "videos/haltearbeit.mp4"
+      },
+      {
+        "exercise": "Klimmzüge am Griffbrett",
+        "description": "4x5 mit Zusatzgewicht, mittlere bis breite Griffe",
+        "video": "videos/klimmzug-griffbrett.mp4"
+      }
+    ],
+    "Dienstag": [
+      {
+        "exercise": "Klimmzüge an Kugeln",
+        "description": "4x4–6 Wiederholungen mit Zusatzgewicht",
+        "video": "videos/klimmzuege-kugeln.mp4"
+      },
+      {
+        "exercise": "Rudern an Ringen",
+        "description": "Schräge tiefe Position – 4x10–12",
+        "video": "videos/rudern-ringe.mp4"
+      },
+      {
+        "exercise": "Hängen an Kugeln",
+        "description": "4x25 Sekunden",
+        "video": "videos/haengen-kugeln.mp4"
+      }
+    ],
+    "Mittwoch": [
+      {
+        "exercise": "Max-Hänge",
+        "description": "6 Sekunden – 4–5 Sätze mit maximaler Belastung (Zusatzgewicht möglich)",
+        "video": "videos/max-haenge.mp4"
+      },
+      {
+        "exercise": "Tuck-Front-Lever-Halten",
+        "description": "An Ringen – 4x12 Sekunden mit Resistance Bands",
+        "video": "videos/tuck-front-lever.mp4"
+      },
+      {
+        "exercise": "Bizeps-Curls mit Ringen",
+        "description": "4x10, engere Körperposition",
         "video": "videos/curls-ringe.mp4"
       }
     ],
@@ -61,62 +246,48 @@
     "Freitag": [
       {
         "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
-        "description": "3x3–5 Wiederholungen",
+        "description": "4x4–6 Wiederholungen",
         "video": "videos/archer-pullups.mp4"
       },
       {
         "exercise": "Ring Dips",
-        "description": "3x8–10",
+        "description": "4x10–12, tiefere Ringe",
         "video": "videos/ring-dips.mp4"
       },
       {
         "exercise": "L-Sit",
-        "description": "An Klimmzugstange oder Ringen – 3x10 Sekunden",
+        "description": "An Klimmzugstange oder Ringen – 4x15 Sekunden",
         "video": "videos/l-sit.mp4"
       }
     ],
     "Samstag": [
       {
         "exercise": "Hängezeit am Griffbrett",
-        "description": "Verschiedene Griffe – 3x20 Sekunden",
+        "description": "Verschiedene Griffe – 4x25 Sekunden mit Zusatzgewicht",
         "video": "videos/haengezeit-griffbrett.mp4"
       },
       {
         "exercise": "Shrugs an Klimmzugstange",
-        "description": "Schulteraktivierung – 3x10",
+        "description": "Schulteraktivierung – 4x12",
         "video": "videos/shrugs.mp4"
       },
       {
         "exercise": "Schulter-Stabilisationsübungen mit Ringen",
-        "description": "3x8",
+        "description": "4x10, tiefere Ringe",
         "video": "videos/stabilisation-ringe.mp4"
       }
     ],
     "Sonntag": [
       {
         "exercise": "Dehnen & leichte Schulterübungen",
-        "description": "Regeneration & Mobility",
+        "description": "Regeneration & intensiveres Mobility",
         "video": "videos/mobility.mp4"
-      }
-    ]
-  },
-  "Woche 3/4": {
-    "Anpassungen": [
-      {
-        "exercise": "Hängezeiten erhöhen",
-        "description": "Z. B. 10/5 anstelle von 7/3"
-      },
-      {
-        "exercise": "Belastung steigern",
-        "description": "Zusatzgewicht bei Klimmzügen oder tiefere Ringe bei Dips"
-      },
-      {
-        "exercise": "Gezielte Pausen",
-        "description": "1–2 Minuten zwischen den Sätzen"
+>>>>>>> origin/feature/Nicole-Trainingsseite
       }
     ]
   },
   "Woche 5/6": {
+<<<<<<< HEAD
     "Anpassungen": [
       {
         "exercise": "Kürzere Wiederholungen, höhere Intensität",
@@ -134,3 +305,106 @@
   }
 }
 
+=======
+    "Montag": [
+      {
+        "exercise": "10/2 Intervall-Hängen",
+        "description": "3x max. 3 Sekunden Halten an schwerer Leiste, 3 Sekunden Pause – 6–8 Wiederholungen pro Satz",
+        "video": "videos/Level2.mp4"
+      },
+      {
+        "exercise": "Einarmige Haltearbeit",
+        "description": "3x 8–10 Sekunden pro Arm an sehr kleiner Leiste oder mit Zusatzgewicht",
+        "video": "videos/haltearbeit.mp4"
+      },
+      {
+        "exercise": "Klimmzüge am Griffbrett",
+        "description": "4x3 explosive Wiederholungen mit Zusatzgewicht",
+        "video": "videos/klimmzug-griffbrett.mp4"
+      }
+    ],
+    "Dienstag": [
+      {
+        "exercise": "Klimmzüge an Kugeln",
+        "description": "5x3 explosive Wiederholungen",
+        "video": "videos/klimmzuege-kugeln.mp4"
+      },
+      {
+        "exercise": "Rudern an Ringen",
+        "description": "Explosives Rudern in tiefer, schräger Position – 5x6–8",
+        "video": "videos/rudern-ringe.mp4"
+      },
+      {
+        "exercise": "Hängen an Kugeln",
+        "description": "4x Haltezeit mit Fingerwechsel während des Hängens",
+        "video": "videos/haengen-kugeln.mp4"
+      }
+    ],
+    "Mittwoch": [
+      {
+        "exercise": "Max-Hänge",
+        "description": "5x 3 Sekunden an kleinster Leiste oder mit Zusatzgewicht – maximale Intensität",
+        "video": "videos/max-haenge.mp4"
+      },
+      {
+        "exercise": "Tuck-Front-Lever-Halten",
+        "description": "4x5 Sekunden explosiv reinziehen + 5 Sekunden halten – kombinierte Halte- und Explosivkraft",
+        "video": "videos/tuck-front-lever.mp4"
+      },
+      {
+        "exercise": "Bizeps-Curls mit Ringen",
+        "description": "4x6 langsame, kontrollierte Wiederholungen, explosive Umkehrbewegung oben",
+        "video": "videos/curls-ringe.mp4"
+      }
+    ],
+    "Donnerstag": [
+      {
+        "exercise": "Pause oder leichtes Stretching",
+        "description": "Optional Mobility mit Fokus auf Schultern und Unterarme",
+        "video": "videos/stretching.mp4"
+      }
+    ],
+    "Freitag": [
+      {
+        "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
+        "description": "4x3 explosive Wiederholungen mit Fokus auf explosive Zugphase",
+        "video": "videos/archer-pullups.mp4"
+      },
+      {
+        "exercise": "Ring Dips",
+        "description": "4x6 explosive Wiederholungen, Ringe möglichst instabil (tief gestellt)",
+        "video": "videos/ring-dips.mp4"
+      },
+      {
+        "exercise": "L-Sit",
+        "description": "5x8 Sekunden mit explosivem Einstieg und perfekter Form",
+        "video": "videos/l-sit.mp4"
+      }
+    ],
+    "Samstag": [
+      {
+        "exercise": "Hängezeit am Griffbrett",
+        "description": "3x10–15 Sekunden an wechselnden Griffen mit Fingerwechsel während des Hängens",
+        "video": "videos/haengezeit-griffbrett.mp4"
+      },
+      {
+        "exercise": "Shrugs an Klimmzugstange",
+        "description": "5x8 mit explosiver Aufwärtsbewegung, langsames Ablassen",
+        "video": "videos/shrugs.mp4"
+      },
+      {
+        "exercise": "Schulter-Stabilisationsübungen mit Ringen",
+        "description": "4x6–8 Wiederholungen, tiefere Ringe und langsame, kontrollierte Bewegungen",
+        "video": "videos/stabilisation-ringe.mp4"
+      }
+    ],
+    "Sonntag": [
+      {
+        "exercise": "Dehnen & leichte Schulterübungen",
+        "description": "Regeneration, Fokus auf Finger und Schulter-Mobility",
+        "video": "videos/mobility.mp4"
+      }
+    ]
+  }
+}
+>>>>>>> origin/feature/Nicole-Trainingsseite
