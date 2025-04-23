@@ -228,3 +228,20 @@ section {
   object-fit: cover;
   border-radius: 10px;
 }
+.nach-oben-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  background-color: #ff5100;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.nach-oben-btn:hover {
+  background-color: #b53e07;
+}
