@@ -1,0 +1,31 @@
+{
+  "name": "scrum-projekt-code",
+  "version": "1.0.0",
+  "description": "## Unsere kleine Kletter-App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.climbtime.app",
+    "productName": "Climbtime",
+    "mac": {
+      "target": "dmg"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!build",
+      "!dist"
+    ]
+  }
+}
