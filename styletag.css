@@ -121,6 +121,28 @@ header a:hover {
 }
 
 
+
+/* Styling für die Übungstitel */
+.exercise-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling für die Details */
+.exercise-details {
+  padding: 10px;
+  margin-top: 5px;
+
+  border: none;
+  border-radius: 8px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 600px) {
   #überschrift {
