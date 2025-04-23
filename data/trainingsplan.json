@@ -4,17 +4,20 @@
       {
         "exercise": "7/3 Intervall-Hänge",
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
-        "video": "videos/Level2.mp4"
+        "video": "videos/Level2.mp4",
+        "time": "300"
       },
       {
         "exercise": "Einarmige Haltearbeit",
         "description": "10–15 Sekunden pro Arm, größere Leiste",
-        "video": "videos/haltearbeit.mp4"
+        "video": "videos/haltearbeit.mp4",
+        "time": "180"
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
         "description": "3x5, mittlere bis breite Griffe",
-        "video": "videos/klimmzug-griffbrett.mp4"
+        "video": "videos/klimmzug-griffbrett.mp4",
+        "time": "600"
       }
     ],
     "Dienstag": [
