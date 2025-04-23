@@ -2,6 +2,7 @@
   "Woche 1/2": {
     "Montag": [
       {
+
         "exercise": "7/3 Intervall-Hängen",
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
         "instructions": "Ausführung: Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung. Muskelgruppen: Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
@@ -118,6 +119,7 @@
     ]
   },
   "Woche 3/4": {
+  
     "Montag": [
       {
         "exercise": "10/2 Intervall-Hängen",
@@ -253,6 +255,7 @@
     ]
   },
   "Woche 5/6": {
+
     "Montag": [
       {
         "exercise": "Kurze Max-Intervall-Hänge",
@@ -388,3 +391,4 @@
     ]
   }
 }
+
