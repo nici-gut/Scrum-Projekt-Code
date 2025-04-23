@@ -2,11 +2,21 @@
 
 ## Unsere kleine Kletter-App
 
-# Wie bekommt man die App zum laufen?
+### Wie bekommt man die App zum laufen?
 
-Dateiordner in VS Code öffnen, Terminal öffnen
+Dateiordner in VS Code öffnen, Terminal öffnen und folgende Commands ausführen:
 
-'npm install'
+`npm install`
+
+`npm start`
+
+um die App als Anwendung zu "bauen":
+
+`npm install`
+
+`npm run build`
+
+App findet man im /dist Ordner 
 
 
 
@@ -20,27 +30,27 @@ Jeder neue Arbeitsschritt muss in einem neuen Branch erfolgen.
 
 Benenne deinen Branch beschreibend, z. B.:
 
-- ```feature/<dein-name>-neue-funktion```
+- `feature/<dein-name>-neue-funktion`
 
-- ```bugfix/<dein-name>-fehler-beheben```
+- `bugfix/<dein-name>-fehler-beheben`
 
-- ```hotfix/<dein-name>-kritischer-fehler```
+- `hotfix/<dein-name>-kritischer-fehler`
 
 Neuen Branch erstellen und direkt wechseln
 
-```git checkout -b <dein-branch-name>```
+`git checkout -b <dein-branch-name>`
 
  Zwischen Branches wechseln
 
-```git checkout <branch-name>```
+`git checkout <branch-name>`
 
  Alle bestehenden Branches anzeigen
 
-```git branch```
+`git branch`
 
  Den aktuellen Branch anzeigen
 
-```git branch --show-current```
+`git branch --show-current`
 
 ### 2. Arbeiten mit dem main Branch
 
@@ -50,25 +60,25 @@ Wenn du mit dem main Branch arbeitest, stelle sicher, dass er immer aktuell ist 
 
 Auf den main Branch wechseln
 
-```git checkout main```
+`git checkout main`
 
 Den main Branch immer auf den neuesten Stand bringen
 
-```git pull origin main```
+`git pull origin main`
 
 ### 3. Pullen und Pushen
 
 Bevor du an einer Aufgabe arbeitest, ziehe zuerst die aktuellen Änderungen:
 
-```git pull origin main```
+`git pull origin main`
 
 Mach deine Änderungen, committe sie mit
 
-```git commit -m <deine-commit-nachricht>```
+`git commit -m <deine-commit-nachricht>`
 
 und pushe sie auf den Remote-Branch:
 
-```git push origin <dein-branch-name>```
+`git push origin <dein-branch-name>`
 
 ### 4. Merge Requests / Pull Requests
 
