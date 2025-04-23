@@ -2,6 +2,14 @@
 
 ## Unsere kleine Kletter-App
 
+# Wie bekommt man die App zum laufen?
+
+Dateiordner in VS Code öffnen, Terminal öffnen
+
+'npm install'
+
+
+
 ### Grundregeln für die Arbeit mit Git
 
 Wir sind alle Anfänger! Hier sind einfache, leicht umsetzbare Regeln für den Umgang mit Git:
