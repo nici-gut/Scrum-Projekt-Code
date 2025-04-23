@@ -32,7 +32,7 @@ Jeder Tag enthält eine **Liste von Übungen**.
 - description (Beschreibung der Übung)
 - video (falls vorhanden Video passend zur Übung)
 
-#### Beispiel:
+#### Beispiel
 
 ```json
 {
@@ -50,3 +50,5 @@ Jeder Tag enthält eine **Liste von Übungen**.
     },
     ...
     ]
+    }
+}

@@ -52,9 +52,31 @@
         const liste = document.getElementById('übungen');
 
         if (übungen && übungen.length > 0) {
-          übungen.forEach(übung => {
+          übungen.forEach((übung, index) => {
             const li = document.createElement('li');
-            li.textContent = übung.exercise; // Anpassung an die JSON-Struktur
+            li.classList.add('exercise-item');
+
+            // Titel der Übung
+            const title = document.createElement('div');
+            title.textContent = übung.exercise;
+            title.classList.add('exercise-title');
+            title.addEventListener('click', () => {
+              const dropdown = li.querySelector('.exercise-details');
+              dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+            });
+
+            // Details der Übung
+            const details = document.createElement('div');
+            details.classList.add('exercise-details');
+            details.style.display = 'none';
+            details.innerHTML = `
+              <p><strong>Beschreibung:</strong> ${übung.description}</p>
+              <p><strong>Ausführung:</strong> ${übung.instructions}</p>
+              <p><strong>Muskelgruppen:</strong> ${übung.mouscelGroups}</p>
+            `;
+
+            li.appendChild(title);
+            li.appendChild(details);
             liste.appendChild(li);
           });
         } else {
