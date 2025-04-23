@@ -6,7 +6,6 @@
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
         "instructions": "Ausführung: Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung. Muskelgruppen: Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
         "video": "videos/Level2.mp4"
-    
       },
       {
         "exercise": "Einarmige Haltearbeit",
@@ -105,7 +104,7 @@
       {
         "exercise": "Schulter-Stabilisationsübungen mit Ringen",
         "description": "3x8",
-        "instructions" : "Ausführung: Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen. Muskelgruppen: Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
+        "instructions": "Ausführung: Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen. Muskelgruppen: Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
         "video": "videos/stabilisation-ringe.mp4"
       }
     ],
@@ -118,107 +117,206 @@
       }
     ]
   },
-    "Woche 3/4": {
-      "Montag": [
-        {
-          "exercise": "10/2 Intervall-Hängen",
-          "description": "10 Sekunden hängen, 2 Sekunden Pause – 8–10 Wiederholungen",
-          "video": "videos/Level2.mp4"
-        },
-        {
-          "exercise": "Einarmige Haltearbeit",
-          "description": "15–20 Sekunden pro Arm, kleinere Leiste",
-          "video": "videos/haltearbeit.mp4"
-        },
-        {
-          "exercise": "Klimmzüge am Griffbrett",
-          "description": "4x5 mit Zusatzgewicht, mittlere bis breite Griffe",
-          "video": "videos/klimmzug-griffbrett.mp4"
-        }
-      ],
-      "Dienstag": [
-        {
-          "exercise": "Klimmzüge an Kugeln",
-          "description": "4x4–6 Wiederholungen mit Zusatzgewicht",
-          "video": "videos/klimmzuege-kugeln.mp4"
-        },
-        {
-          "exercise": "Rudern an Ringen",
-          "description": "Schräge tiefe Position – 4x10–12",
-          "video": "videos/rudern-ringe.mp4"
-        },
-        {
-          "exercise": "Hängen an Kugeln",
-          "description": "4x25 Sekunden",
-          "video": "videos/haengen-kugeln.mp4"
-        }
-      ],
-      "Mittwoch": [
-        {
-          "exercise": "Max-Hänge",
-          "description": "6 Sekunden – 4–5 Sätze mit maximaler Belastung (Zusatzgewicht möglich)",
-          "video": "videos/max-haenge.mp4"
-        },
-        {
-          "exercise": "Tuck-Front-Lever-Halten",
-          "description": "An Ringen – 4x12 Sekunden mit Resistance Bands",
-          "video": "videos/tuck-front-lever.mp4"
-        },
-        {
-          "exercise": "Bizeps-Curls mit Ringen",
-          "description": "4x10, engere Körperposition",
-          "video": "videos/curls-ringe.mp4"
-        }
-      ],
-      "Donnerstag": [
-        {
-          "exercise": "Pause oder leichtes Stretching",
-          "description": "Optional Mobility-Training",
-          "video": "videos/stretching.mp4"
-        }
-      ],
-      "Freitag": [
-        {
-          "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
-          "description": "4x4–6 Wiederholungen",
-          "video": "videos/archer-pullups.mp4"
-        },
-        {
-          "exercise": "Ring Dips",
-          "description": "4x10–12, tiefere Ringe",
-          "video": "videos/ring-dips.mp4"
-        },
-        {
-          "exercise": "L-Sit",
-          "description": "An Klimmzugstange oder Ringen – 4x15 Sekunden",
-          "video": "videos/l-sit.mp4"
-        }
-      ],
-      "Samstag": [
-        {
-          "exercise": "Hängezeit am Griffbrett",
-          "description": "Verschiedene Griffe – 4x25 Sekunden mit Zusatzgewicht",
-          "video": "videos/haengezeit-griffbrett.mp4"
-        },
-        {
-          "exercise": "Shrugs an Klimmzugstange",
-          "description": "Schulteraktivierung – 4x12",
-          "video": "videos/shrugs.mp4"
-        },
-        {
-          "exercise": "Schulter-Stabilisationsübungen mit Ringen",
-          "description": "4x10, tiefere Ringe",
-          "video": "videos/stabilisation-ringe.mp4"
-        }
-      ],
-      "Sonntag": [
-        {
-          "exercise": "Dehnen & leichte Schulterübungen",
-          "description": "Regeneration & intensiveres Mobility",
-          "video": "videos/mobility.mp4"
-        }
-      ]
-    }
+  "Woche 3/4": {
+    "Montag": [
+      {
+        "exercise": "10/2 Intervall-Hängen",
+        "description": "10 Sekunden hängen, 2 Sekunden Pause – 8–10 Wiederholungen",
+        "video": "videos/Level2.mp4"
+      },
+      {
+        "exercise": "Einarmige Haltearbeit",
+        "description": "15–20 Sekunden pro Arm, kleinere Leiste",
+        "video": "videos/haltearbeit.mp4"
+      },
+      {
+        "exercise": "Klimmzüge am Griffbrett",
+        "description": "4x5 mit Zusatzgewicht, mittlere bis breite Griffe",
+        "video": "videos/klimmzug-griffbrett.mp4"
+      }
+    ],
+    "Dienstag": [
+      {
+        "exercise": "Klimmzüge an Kugeln",
+        "description": "4x4–6 Wiederholungen mit Zusatzgewicht",
+        "video": "videos/klimmzuege-kugeln.mp4"
+      },
+      {
+        "exercise": "Rudern an Ringen",
+        "description": "Schräge tiefe Position – 4x10–12",
+        "video": "videos/rudern-ringe.mp4"
+      },
+      {
+        "exercise": "Hängen an Kugeln",
+        "description": "4x25 Sekunden",
+        "video": "videos/haengen-kugeln.mp4"
+      }
+    ],
+    "Mittwoch": [
+      {
+        "exercise": "Max-Hänge",
+        "description": "6 Sekunden – 4–5 Sätze mit maximaler Belastung (Zusatzgewicht möglich)",
+        "video": "videos/max-haenge.mp4"
+      },
+      {
+        "exercise": "Tuck-Front-Lever-Halten",
+        "description": "An Ringen – 4x12 Sekunden mit Resistance Bands",
+        "video": "videos/tuck-front-lever.mp4"
+      },
+      {
+        "exercise": "Bizeps-Curls mit Ringen",
+        "description": "4x10, engere Körperposition",
+        "video": "videos/curls-ringe.mp4"
+      }
+    ],
+    "Donnerstag": [
+      {
+        "exercise": "Pause oder leichtes Stretching",
+        "description": "Optional Mobility-Training",
+        "video": "videos/stretching.mp4"
+      }
+    ],
+    "Freitag": [
+      {
+        "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
+        "description": "4x4–6 Wiederholungen",
+        "video": "videos/archer-pullups.mp4"
+      },
+      {
+        "exercise": "Ring Dips",
+        "description": "4x10–12, tiefere Ringe",
+        "video": "videos/ring-dips.mp4"
+      },
+      {
+        "exercise": "L-Sit",
+        "description": "An Klimmzugstange oder Ringen – 4x15 Sekunden",
+        "video": "videos/l-sit.mp4"
+      }
+    ],
+    "Samstag": [
+      {
+        "exercise": "Hängezeit am Griffbrett",
+        "description": "Verschiedene Griffe – 4x25 Sekunden mit Zusatzgewicht",
+        "video": "videos/haengezeit-griffbrett.mp4"
+      },
+      {
+        "exercise": "Shrugs an Klimmzugstange",
+        "description": "Schulteraktivierung – 4x12",
+        "video": "videos/shrugs.mp4"
+      },
+      {
+        "exercise": "Schulter-Stabilisationsübungen mit Ringen",
+        "description": "4x10, tiefere Ringe",
+        "video": "videos/stabilisation-ringe.mp4"
+      }
+    ],
+    "Sonntag": [
+      {
+        "exercise": "Dehnen & leichte Schulterübungen",
+        "description": "Regeneration & intensiveres Mobility",
+        "video": "videos/mobility.mp4"
+      }
+    ]
+  },
+  "Woche 5/6": {
+    "Montag": [
+      {
+        "exercise": "10/2 Intervall-Hängen",
+        "description": "3x max. 3 Sekunden Halten an schwerer Leiste, 3 Sekunden Pause – 6–8 Wiederholungen pro Satz",
+        "video": "videos/Level2.mp4"
+      },
+      {
+        "exercise": "Einarmige Haltearbeit",
+        "description": "3x 8–10 Sekunden pro Arm an sehr kleiner Leiste oder mit Zusatzgewicht",
+        "video": "videos/haltearbeit.mp4"
+      },
+      {
+        "exercise": "Klimmzüge am Griffbrett",
+        "description": "4x3 explosive Wiederholungen mit Zusatzgewicht",
+        "video": "videos/klimmzug-griffbrett.mp4"
+      }
+    ],
+    "Dienstag": [
+      {
+        "exercise": "Klimmzüge an Kugeln",
+        "description": "5x3 explosive Wiederholungen",
+        "video": "videos/klimmzuege-kugeln.mp4"
+      },
+      {
+        "exercise": "Rudern an Ringen",
+        "description": "Explosives Rudern in tiefer, schräger Position – 5x6–8",
+        "video": "videos/rudern-ringe.mp4"
+      },
+      {
+        "exercise": "Hängen an Kugeln",
+        "description": "4x Haltezeit mit Fingerwechsel während des Hängens",
+        "video": "videos/haengen-kugeln.mp4"
+      }
+    ],
+    "Mittwoch": [
+      {
+        "exercise": "Max-Hänge",
+        "description": "5x 3 Sekunden an kleinster Leiste oder mit Zusatzgewicht – maximale Intensität",
+        "video": "videos/max-haenge.mp4"
+      },
+      {
+        "exercise": "Tuck-Front-Lever-Halten",
+        "description": "4x5 Sekunden explosiv reinziehen + 5 Sekunden halten – kombinierte Halte- und Explosivkraft",
+        "video": "videos/tuck-front-lever.mp4"
+      },
+      {
+        "exercise": "Bizeps-Curls mit Ringen",
+        "description": "4x6 langsame, kontrollierte Wiederholungen, explosive Umkehrbewegung oben",
+        "video": "videos/curls-ringe.mp4"
+      }
+    ],
+    "Donnerstag": [
+      {
+        "exercise": "Pause oder leichtes Stretching",
+        "description": "Optional Mobility mit Fokus auf Schultern und Unterarme",
+        "video": "videos/stretching.mp4"
+      }
+    ],
+    "Freitag": [
+      {
+        "exercise": "Archer Pull-Ups / Einarmige Unterstützungsklimmzüge",
+        "description": "4x3 explosive Wiederholungen mit Fokus auf explosive Zugphase",
+        "video": "videos/archer-pullups.mp4"
+      },
+      {
+        "exercise": "Ring Dips",
+        "description": "4x6 explosive Wiederholungen, Ringe möglichst instabil (tief gestellt)",
+        "video": "videos/ring-dips.mp4"
+      },
+      {
+        "exercise": "L-Sit",
+        "description": "5x8 Sekunden mit explosivem Einstieg und perfekter Form",
+        "video": "videos/l-sit.mp4"
+      }
+    ],
+    "Samstag": [
+      {
+        "exercise": "Hängezeit am Griffbrett",
+        "description": "3x10–15 Sekunden an wechselnden Griffen mit Fingerwechsel während des Hängens",
+        "video": "videos/haengezeit-griffbrett.mp4"
+      },
+      {
+        "exercise": "Shrugs an Klimmzugstange",
+        "description": "5x8 mit explosiver Aufwärtsbewegung, langsames Ablassen",
+        "video": "videos/shrugs.mp4"
+      },
+      {
+        "exercise": "Schulter-Stabilisationsübungen mit Ringen",
+        "description": "4x6–8 Wiederholungen, tiefere Ringe und langsame, kontrollierte Bewegungen",
+        "video": "videos/stabilisation-ringe.mp4"
+      }
+    ],
+    "Sonntag": [
+      {
+        "exercise": "Dehnen & leichte Schulterübungen",
+        "description": "Regeneration, Fokus auf Finger und Schulter-Mobility",
+        "video": "videos/mobility.mp4"
+      }
+    ]
   }
-
-
+}
