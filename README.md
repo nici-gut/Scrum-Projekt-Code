@@ -16,10 +16,6 @@ um die App als Anwendung zu "bauen":
 
 `npm run build`
 
-App findet man im /dist Ordner 
-
-
-
 ### Grundregeln für die Arbeit mit Git
 
 Wir sind alle Anfänger! Hier sind einfache, leicht umsetzbare Regeln für den Umgang mit Git:
