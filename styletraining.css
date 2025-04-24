@@ -1,4 +1,3 @@
-
 :root {
   --main-orange: #ff5100;
   --white: #ffffff;
@@ -114,6 +113,33 @@ video#uebungsvideo {
 
 .weiter-button:hover {
   background-color: #e04a00;
+}
+
+/* Zähler Container */
+#zählerContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#zählerContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#zählerContainer button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff5100;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#zählerContainer button:hover {
+  background-color: #b53e07;
 }
 
 /* Responsive Anpassungen */
