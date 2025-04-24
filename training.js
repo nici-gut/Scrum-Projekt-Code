@@ -32,19 +32,18 @@ function ladeUebung(index) {
   /*   sekunden = parseInt(uebung.time) || 0; */
   updateAnzeige();
 
-  if (!läuft) {
-    läuft = true;
-    timer = setInterval(() => {
-      sekunden--;
-      updateAnzeige();
-      localStorage.setItem('aktuelleSekunden', sekunden);
-    }, 1000);
-  }
-
   document.getElementById('startBtn').addEventListener('click', () => {
     if (!läuft) {
       läuft = true;
       timer = setInterval(() => {
+        if (sekunden <= 0) {
+          sekunden = parseInt(uebung.time);
+          läuft = false; 
+          clearInterval(timer);
+          updateAnzeige();
+          localStorage.clear;
+          return;
+        }
         sekunden--;
         updateAnzeige();
         localStorage.setItem('aktuelleSekunden', sekunden);
