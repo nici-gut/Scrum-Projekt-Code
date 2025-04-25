@@ -38,6 +38,7 @@ document.getElementById('resetBtn').addEventListener('click', () => {
 function ladeUebung(index) {
   if (index >= aktuelleUebungen.length) {
     document.getElementById('weiterBtn').style.display = 'none'; // "Weiter"-Button ausblenden
+    document.getElementById('beendenBtn').style.display = 'block'; // "Beenden"-Button anzeigen
     return;
   }
 
@@ -70,8 +71,10 @@ function ladeUebung(index) {
   // "Weiter"-Button anzeigen, wenn es eine nächste Übung gibt
   if (index < aktuelleUebungen.length - 1) {
     document.getElementById('weiterBtn').style.display = 'block';
+    document.getElementById('beendenBtn').style.display = 'none'; // "Beenden"-Button ausblenden
   } else {
     document.getElementById('weiterBtn').style.display = 'none';
+    document.getElementById('beendenBtn').style.display = 'block'; // "Beenden"-Button anzeigen
   }
 }
 
@@ -117,6 +120,11 @@ document.getElementById('zählerReset').addEventListener('click', () => {
 
   zählerWerte[aktuelleÜbung.exercise] = 0;
   document.getElementById('zählerWert').textContent = 0;
+});
+
+// "Beenden"-Button Funktionalität
+document.getElementById('beendenBtn').addEventListener('click', () => {
+  window.location.href = 'index.html'; // Zurück zur Startseite
 });
 
 // Beim Laden der Seite Training initialisieren
