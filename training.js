@@ -36,7 +36,6 @@ document.getElementById('resetBtn').addEventListener('click', () => {
 // Funktion zum Laden einer Übung
 function ladeUebung(index) {
   if (index >= aktuelleUebungen.length) {
-    document.getElementById('weiterBtn').style.display = 'none'; // "Weiter"-Button ausblenden
     return;
   }
 
@@ -56,12 +55,22 @@ function ladeUebung(index) {
     videoElement.style.display = 'none';
   }
 
-  // "Weiter"-Button anzeigen, wenn es eine nächste Übung gibt
+  // "Weiter"-Button anpassen
+  const weiterButton = document.getElementById('weiterBtn');
   if (index < aktuelleUebungen.length - 1) {
-    document.getElementById('weiterBtn').style.display = 'block';
+    weiterButton.textContent = "Weiter";
+    weiterButton.onclick = () => {
+      aktuelleUebungIndex++;
+      ladeUebung(aktuelleUebungIndex);
+    };
   } else {
-    document.getElementById('weiterBtn').style.display = 'none';
+    weiterButton.textContent = "Beenden";
+    weiterButton.onclick = () => {
+      window.location.href = "index.html"; // Zurück zur Startseite
+    };
   }
+
+  weiterButton.style.display = 'block'; // Button anzeigen
 }
 
 // Training laden
@@ -83,12 +92,6 @@ async function ladeTraining() {
   // Erste Übung laden
   ladeUebung(aktuelleUebungIndex);
 }
-
-// "Weiter"-Button Funktionalität
-document.getElementById('weiterBtn').addEventListener('click', () => {
-  aktuelleUebungIndex++;
-  ladeUebung(aktuelleUebungIndex);
-});
 
 // Beim Laden der Seite Training initialisieren
 ladeTraining();
