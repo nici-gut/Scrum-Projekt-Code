@@ -33,6 +33,26 @@ document.getElementById('resetBtn').addEventListener('click', () => {
   updateAnzeige();
 });
 
+// Funktion zum Initialisieren des Zählers
+function initCounter() {
+  let counter = 0;
+  const counterContainer = document.getElementById('counter-container');
+  const counterValue = document.getElementById('counterValue');
+  const incrementBtn = document.getElementById('incrementBtn');
+
+  incrementBtn.addEventListener('click', () => {
+    counter++;
+    counterValue.textContent = counter;
+  });
+
+  decrementBtn.addEventListener('click', () => {
+    if (counter > 0) counter--;
+    counterValue.textContent = counter;
+  });
+
+  return counterContainer;
+}
+
 // Funktion zum Laden einer Übung
 function ladeUebung(index) {
   if (index >= aktuelleUebungen.length) {
@@ -40,6 +60,13 @@ function ladeUebung(index) {
   }
 
   const uebung = aktuelleUebungen[index];
+  const counterContainer = initCounter();
+
+  if (uebung.counter) {
+    counterContainer.style.display = 'flex';
+  } else {
+    counterContainer.style.display = 'none';
+  }
 
   // Titel und Beschreibung setzen
   document.getElementById('übungen').textContent = uebung.exercise || "Keine Übung angegeben";
