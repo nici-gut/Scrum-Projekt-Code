@@ -112,29 +112,51 @@ function ladeUebung(index) {
   const uebung = aktuelleUebungen[index];
   const maxCount = uebung.maxCount || 0;
 
-  const onMaxReached = () => {
-    if (index < aktuelleUebungen.length - 1) {
-      aktuelleUebungIndex++;
-      ladeUebung(aktuelleUebungIndex);
-    } else {
-      window.location.href = "index.html";
-    }
-  };
-
-  const counterContainer = initCounter(maxCount, onMaxReached);
-
-  const counterValue = document.getElementById('counterValue');
-  counterValue.textContent = 0;
-
+  // Timer oder Zähler basierend auf dem JSON-Wert anzeigen
   if (uebung.counter) {
-    counterContainer.style.display = 'flex';
+    // Zähler anzeigen
+    document.getElementById('counter-container').style.display = 'flex';
+    document.getElementById('zeit').style.display = 'none';
+
+    // Start- und Stopp-Buttons ausblenden
+    document.querySelector('.timer-controls').style.display = 'none';
+
+    initCounter(maxCount, () => {
+      if (index < aktuelleUebungen.length - 1) {
+        aktuelleUebungIndex++;
+        ladeUebung(aktuelleUebungIndex);
+      } else {
+        window.location.href = "index.html";
+      }
+    });
   } else {
-    counterContainer.style.display = 'none';
+    // Timer anzeigen
+    document.getElementById('counter-container').style.display = 'none';
+    document.getElementById('zeit').style.display = 'block';
+
+    // Start- und Stopp-Buttons einblenden
+    document.querySelector('.timer-controls').style.display = 'flex';
+
+    starteTimer(
+      uebung.duration,
+      uebung.pauseDuration,
+      uebung.sets,
+      () => {
+        if (index < aktuelleUebungen.length - 1) {
+          aktuelleUebungIndex++;
+          ladeUebung(aktuelleUebungIndex);
+        } else {
+          window.location.href = "index.html";
+        }
+      }
+    );
   }
 
+  // Übungstitel und Beschreibung aktualisieren
   document.getElementById('übungen').textContent = uebung.exercise || "Keine Übung angegeben";
   document.getElementById('beschreibung').textContent = uebung.description || "Keine Beschreibung verfügbar";
 
+  // Video aktualisieren
   const videoElement = document.getElementById('uebungsvideo');
   if (uebung.video) {
     videoElement.src = uebung.video;
@@ -144,6 +166,7 @@ function ladeUebung(index) {
     videoElement.style.display = 'none';
   }
 
+  // Weiter-Button konfigurieren
   const weiterButton = document.getElementById('weiterBtn');
   if (index < aktuelleUebungen.length - 1) {
     weiterButton.textContent = "Weiter";
