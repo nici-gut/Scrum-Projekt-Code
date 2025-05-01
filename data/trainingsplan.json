@@ -8,7 +8,10 @@
         "instructions": "Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
         "video": "videos/Level.mp4",
-        "counter": false
+        "counter": false,
+        "duration": 7,
+        "pauseDuration": 3,
+        "sets": 2
         
       },
       {
@@ -17,7 +20,10 @@
         "instructions": "Halte dich mit einer Hand an einer größeren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
         "video": "videos/haltearbeit.mp4",
-        "counter": false
+        "counter": false,
+        "duration": 15,
+        "pauseDuration": 5,
+        "sets": 1
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
@@ -54,7 +60,10 @@
         "instructions": "Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core.",
         "video": "videos/haengen-kugeln.mp4",
-        "counter": false
+        "counter": false,
+        "duration": 20,
+        "pauseDuration": 10,
+        "sets": 3
       }
     ],
     "Mittwoch": [
@@ -64,7 +73,10 @@
         "instructions": "Hänge dich für 5 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung.",
        "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
         "video": "videos/max-haenge.mp4",
-        "counter": false
+        "counter": false,
+        "duration": 5,
+        "pauseDuration": 10,
+        "sets": 4
       },
       {
         "exercise": "Tuck-Front-Lever-Halten",
