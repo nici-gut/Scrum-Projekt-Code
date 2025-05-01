@@ -62,6 +62,11 @@ function ladeUebung(index) {
   const uebung = aktuelleUebungen[index];
   const counterContainer = initCounter();
 
+  // Zähler zurücksetzen
+  let counter = 0;
+  const counterValue = document.getElementById('counterValue');
+  counterValue.textContent = counter;
+
   if (uebung.counter) {
     counterContainer.style.display = 'flex';
   } else {
