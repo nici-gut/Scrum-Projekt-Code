@@ -25,7 +25,8 @@
         "instructions": "Ziehe dich mit kontrollierter Bewegung an mittleren bis breiten Griffen nach oben, ohne Schwung – Schultern aktiv, Körper in Spannung.",
         "musclegroup": "Latissimus, Bizeps, Unterarme, Trapez, Rhomboiden.",
         "video": "videos/klimmzug-griffbrett.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       }
     ],
     "Dienstag": [
@@ -35,7 +36,8 @@
         "instructions": "Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich.",
         "musclegroup": "Latissimus, Bizeps, Griffmuskulatur, Schultern.",
         "video": "videos/klimmzuege-kugeln.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       },
       {
         "exercise": "Rudern an Ringen",
@@ -43,7 +45,8 @@
         "instructions": "Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
         "video": "videos/rudern-ringe.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       },
       {
         "exercise": "Hängen an Kugeln",
@@ -77,7 +80,8 @@
         "instructions": "Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
         "video": "videos/curls-ringe.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       }
     ],
     "Donnerstag": [
@@ -97,7 +101,8 @@
         "instructions": "Ziehe dich einseitig hoch, während der andere Arm nur leicht unterstützt – Körperspannung und Kontrolle stehen im Fokus.",
         "musclegroup": "Latissimus, Bizeps, Core, Schulterstabilisatoren.",
         "video": "videos/archer-pullups.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       },
       {
         "exercise": "Ring Dips",
@@ -105,7 +110,8 @@
         "instructions": "Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.",
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
         "video": "videos/ring-dips.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       },
       {
         "exercise": "L-Sit",
@@ -131,7 +137,8 @@
         "instructions": "Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, unterer Rücken.",
         "video": "videos/shrugs.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       },
       {
         "exercise": "Schulter-Stabilisationsübungen mit Ringen",
@@ -139,7 +146,8 @@
         "instructions": "Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen. ",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior",
         "video": "videos/stabilisation-ringe.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       }
     ],
     "Sonntag": [
@@ -178,7 +186,8 @@
         "instructions": "Ausführung:Ziehe dich mit kontrollierter Bewegung an mittleren bis breiten Griffen nach oben, ohne Schwung – Schultern aktiv, Körper in Spannung.",
         "musclegroup": "Latissimus, Bizeps, Unterarme, Trapez, Rhomboiden.",
         "video": "videos/klimmzug-griffbrett.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       }
     ],
     "Dienstag": [
@@ -188,7 +197,8 @@
         "instructions": "Ausführung:Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich.",
         "musclegroup": "Latissimus, Bizeps, Griffmuskulatur, Schultern.",
         "video": "videos/klimmzuege-kugeln.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       },
       {
         "exercise": "Rudern an Ringen",
@@ -196,7 +206,8 @@
         "instructions": "Ausführung: Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.", 
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
         "video": "videos/rudern-ringe.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       },
       {
         "exercise": "Hängen an Kugeln",
@@ -204,7 +215,8 @@
         "instructions": "Ausführung: Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.", 
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core",
         "video": "videos/haengen-kugeln.mp4",
-        "counter": false
+        "counter": false,
+        "maxCount": 4
       }
     ],
     "Mittwoch": [
@@ -230,7 +242,8 @@
         "instructions": "Ausführung: Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.", 
         "video": "videos/curls-ringe.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       }
     ],
     "Donnerstag": [
@@ -250,14 +263,16 @@
         "instructions": "Ausführung: Ziehe dich einseitig hoch, während der andere Arm nur leicht unterstützt – Körperspannung und Kontrolle stehen im Fokus.",
         "musclegroup": "Latissimus, Bizeps, Core, Schulterstabilisatoren",
         "video": "videos/archer-pullups.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       },
       {
         "exercise": "Ring Dips",
         "description": "4x10–12, tiefere Ringe",
         "instructions": "Ausführung: Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.", 
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
-        "video": "videos/ring-dips.mp4"
+        "video": "videos/ring-dips.mp4",
+        "maxCount": 4
       },
       {
         "exercise": "L-Sit",
@@ -283,7 +298,8 @@
         "instructions": "Ausführung: Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, unterer Rücken.",
         "video": "videos/shrugs.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       },
       {
         "exercise": "Schulter-Stabilisationsübungen mit Ringen",
@@ -291,7 +307,8 @@
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
         "description": "4x10, tiefere Ringe",
         "video": "videos/stabilisation-ringe.mp4",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       }
     ],
     "Sonntag": [
@@ -330,7 +347,8 @@
         "video": "videos/klimmzug-gewicht.mp4",
         "instructions": "Ausführung: Ziehe dich mit Zusatzgewicht kontrolliert an mittleren bis breiten Griffen nach oben – ohne Schwung, Fokus auf Kraftausnutzung.",
         "musclegroup": "Latissimus, Bizeps, Trapez, Rhomboiden, Unterarme.",
-        "counter": true
+        "counter": true,
+        "maxCount": 5
       }
     ],
     "Dienstag": [
@@ -340,7 +358,8 @@
         "video": "videos/explosiv-kugeln.mp4",
         "instructions": "Ausführung: Ziehe dich explosiv an Kugeln hoch, halte kurz oben und lasse dich kontrolliert ab – hohe Körperspannung.",
         "musclegroup": "Latissimus, Bizeps, Griffkraft, Core, Schultern.",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       },
       {
         "exercise": "Tiefe Ruderzüge an Ringen",
@@ -348,7 +367,8 @@
         "video": "videos/rudern-tief.mp4",
         "instructions": "Ausführung: Ziehe dich aus fast horizontaler Position kraftvoll an die Ringe – Rücken bleibt stabil, Schultern aktiv.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Core, Rückenstrecker.",
-        "counter": true
+        "counter": true,
+        "maxCount": 5
       },
       {
         "exercise": "Langes Hängen an Kugeln",
@@ -382,7 +402,8 @@
         "video": "videos/curls-eng.mp4",
         "instructions": "Ausführung: Ziehe die Ringe mit eng anliegendem Ellenbogen nach oben – kontrollierte Bewegung, kein Schwung.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       }
     ],
     "Donnerstag": [
@@ -402,7 +423,8 @@
         "video": "videos/archer-explosiv.mp4",
         "instructions": "Ausführung: Ziehe dich kraftvoll einseitig hoch, halte kurz oben und wechsle die Seite – Spannung im gesamten Körper.",
         "musclegroup": "Latissimus, Bizeps, Schultern, Core.",
-        "counter": true
+        "counter": true,
+        "maxCount": 3
       },
       {
         "exercise": "Tiefe Ring Dips mit Pause",
@@ -436,7 +458,8 @@
         "video": "videos/shrugs-explosiv.mp4",
         "instructions": "Ausführung: Ziehe aus gestreckten Armen die Schultern explosiv nach oben und halte kurz, dann langsam ablassen.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, Rücken.",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       },
       {
         "exercise": "Instabile Schulterarbeit an tiefen Ringen",
@@ -444,7 +467,8 @@
         "video": "videos/instabil-schulter.mp4",
         "instructions": "Ausführung: Führe Y- oder T-Bewegungen an tief hängenden Ringen kontrolliert aus – Fokus auf Schulterführung.",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
-        "counter": true
+        "counter": true,
+        "maxCount": 4
       }
     ],
     "Sonntag": [

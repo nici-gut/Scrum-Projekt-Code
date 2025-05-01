@@ -34,21 +34,36 @@ document.getElementById('resetBtn').addEventListener('click', () => {
 });
 
 // Funktion zum Initialisieren des Zählers
-function initCounter() {
+function initCounter(maxCount, onMaxReached) {
   let counter = 0;
   const counterContainer = document.getElementById('counter-container');
   const counterValue = document.getElementById('counterValue');
   const incrementBtn = document.getElementById('incrementBtn');
+  const decrementBtn = document.getElementById('decrementBtn');
 
+  // Zähler erhöhen, aber nicht über maxCount hinaus
   incrementBtn.addEventListener('click', () => {
-    counter++;
-    counterValue.textContent = counter;
+    if (counter < maxCount) {
+      counter++;
+      counterValue.textContent = counter;
+
+      // Überprüfen, ob die Obergrenze erreicht wurde
+      if (counter === maxCount) {
+        onMaxReached(); // Nächste Übung oder Startseite
+      }
+    }
   });
 
+  // Zähler verringern, aber nicht unter 0
   decrementBtn.addEventListener('click', () => {
-    if (counter > 0) counter--;
-    counterValue.textContent = counter;
+    if (counter > 0) {
+      counter--;
+      counterValue.textContent = counter;
+    }
   });
+
+  // Initialen Zählerwert setzen
+  counterValue.textContent = counter;
 
   return counterContainer;
 }
@@ -60,12 +75,23 @@ function ladeUebung(index) {
   }
 
   const uebung = aktuelleUebungen[index];
-  const counterContainer = initCounter();
+  const maxCount = uebung.maxCount || 0; // Standard: 0, wenn kein Limit angegeben
+
+  // Callback-Funktion, wenn die Obergrenze erreicht wird
+  const onMaxReached = () => {
+    if (index < aktuelleUebungen.length - 1) {
+      aktuelleUebungIndex++;
+      ladeUebung(aktuelleUebungIndex);
+    } else {
+      window.location.href = "index.html"; // Zurück zur Startseite
+    }
+  };
+
+  const counterContainer = initCounter(maxCount, onMaxReached);
 
   // Zähler zurücksetzen
-  let counter = 0;
   const counterValue = document.getElementById('counterValue');
-  counterValue.textContent = counter;
+  counterValue.textContent = 0;
 
   if (uebung.counter) {
     counterContainer.style.display = 'flex';
