@@ -127,7 +127,7 @@ video#uebungsvideo {
   color: #333;
   position: relative; /* Ermöglicht präzise Positionierung */
   left: 50%; /* Zentriert den Container horizontal */
-  transform: translateX(-50%); /* Korrigiert die Zentrierung */
+  transform: translateX(calc(-50% - 25px)); /* Verschiebt den Container um 25px nach links */
 }
 
 /* Styling für die Plus- und Minus-Buttons */
