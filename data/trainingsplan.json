@@ -7,7 +7,7 @@
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
         "instructions": "Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
-        "video": "videos/Level2.mp4"
+        "video": "videos/Level.mp4"
       },
       {
         "exercise": "Einarmige Haltearbeit",
@@ -99,7 +99,7 @@
         "description": "An Klimmzugstange oder Ringen – 3x10 Sekunden",
         "instructions": "Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen.",
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps.",
-        "video": "videos/l-sit.mp4"
+        "video": "videos/Scrum L-Sit.mp4"
       }
     ],
     "Samstag": [
