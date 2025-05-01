@@ -7,7 +7,6 @@
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
         "instructions": "Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
-        "video": "videos/Level2.mp4",
         "counter": false
         
       },
@@ -16,7 +15,6 @@
         "description": "10–15 Sekunden pro Arm, größere Leiste",
         "instructions": "Halte dich mit einer Hand an einer größeren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
-        "video": "videos/haltearbeit.mp4",
         "counter": false
       },
       {
@@ -24,7 +22,6 @@
         "description": "3x5, mittlere bis breite Griffe",
         "instructions": "Ziehe dich mit kontrollierter Bewegung an mittleren bis breiten Griffen nach oben, ohne Schwung – Schultern aktiv, Körper in Spannung.",
         "musclegroup": "Latissimus, Bizeps, Unterarme, Trapez, Rhomboiden.",
-        "video": "videos/klimmzug-griffbrett.mp4",
         "counter": true
       }
     ],
@@ -34,7 +31,6 @@
         "description": "3x3–5 Wiederholungen",
         "instructions": "Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich.",
         "musclegroup": "Latissimus, Bizeps, Griffmuskulatur, Schultern.",
-        "video": "videos/klimmzuege-kugeln.mp4",
         "counter": true
       },
       {
@@ -42,7 +38,6 @@
         "description": "Schräge Position – 3x8–12",
         "instructions": "Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
-        "video": "videos/rudern-ringe.mp4",
         "counter": true
       },
       {
@@ -50,7 +45,6 @@
         "description": "3x20 Sekunden",
         "instructions": "Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core.",
-        "video": "videos/haengen-kugeln.mp4",
         "counter": false
       }
     ],
@@ -60,7 +54,6 @@
         "description": "5 Sekunden – 3–4 Sätze mit maximaler Belastung",
         "instructions": "Hänge dich für 5 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung.",
        "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
-        "video": "videos/max-haenge.mp4",
         "counter": false
       },
       {
@@ -68,7 +61,6 @@
         "description": "An Ringen – 3x10 Sekunden",
         "instructions": "Ziehe deine Knie zur Brust und halte deinen Körper waagerecht an den Ringen – Schultern tief, Core maximal angespannt.",
         "musclegroup": "Latissimus, Bauchmuskeln, Schultern, Rückenstrecker.",
-        "video": "videos/tuck-front-lever.mp4",
         "counter": false
       },
       {
@@ -76,7 +68,6 @@
         "description": "3x8",
         "instructions": "Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
-        "video": "videos/curls-ringe.mp4",
         "counter": true
       }
     ],
@@ -86,7 +77,6 @@
         "description": "Optional Mobility-Training",
         "instructions": "Nutze den Tag zur aktiven Regeneration. Leichtes Stretching für Schultern, Rücken und Beine oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
-        "video": "videos/stretching.mp4",
         "counter": false
       }
     ],
@@ -96,7 +86,6 @@
         "description": "3x3–5 Wiederholungen",
         "instructions": "Ziehe dich einseitig hoch, während der andere Arm nur leicht unterstützt – Körperspannung und Kontrolle stehen im Fokus.",
         "musclegroup": "Latissimus, Bizeps, Core, Schulterstabilisatoren.",
-        "video": "videos/archer-pullups.mp4",
         "counter": true
       },
       {
@@ -104,7 +93,6 @@
         "description": "3x8–10",
         "instructions": "Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.",
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
-        "video": "videos/ring-dips.mp4",
         "counter": true
       },
       {
@@ -112,7 +100,6 @@
         "description": "An Klimmzugstange oder Ringen – 3x10 Sekunden",
         "instructions": "Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen.",
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps.",
-        "video": "videos/l-sit.mp4",
         "counter": false
       }
     ],
@@ -122,7 +109,6 @@
         "description": "Verschiedene Griffe – 3x20 Sekunden",
         "instructions": "Hänge dich an verschiedene Griffarten am Board (z. B. Crimps, Sloper) und halte möglichst gleichmäßig mit aktiver Schulter.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern (isometrisch).",
-        "video": "videos/haengezeit-griffbrett.mp4",
         "counter": false
       },
       {
@@ -130,7 +116,6 @@
         "description": "Schulteraktivierung – 3x10",
         "instructions": "Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, unterer Rücken.",
-        "video": "videos/shrugs.mp4",
         "counter": true
       },
       {
@@ -138,7 +123,6 @@
         "description": "3x8",
         "instructions": "Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen. ",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior",
-        "video": "videos/stabilisation-ringe.mp4",
         "counter": true
       }
     ],
@@ -148,7 +132,6 @@
         "description": "Regeneration & Mobility",
         "instructions": "Mobilisiere Schultern und Wirbelsäule durch dynamische Dehnungen und leichte Kräftigungsübungen wie Wand-Slides oder Armkreise.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
-        "video": "videos/mobility.mp4",
         "counter": false
       }
     ]
@@ -161,7 +144,6 @@
         "description": "10 Sekunden hängen, 2 Sekunden Pause – 8–10 Wiederholungen",
         "instructions": "Ausführung: Hänge dich für 10 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 2 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
-        "video": "videos/Level2.mp4",
         "counter": false
       },
       {
@@ -169,7 +151,6 @@
         "description": "15–20 Sekunden pro Arm, kleinere Leiste",
         "instructions": "Ausführung: Halte dich mit einer Hand an einer kleineren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
-        "video": "videos/haltearbeit.mp4",
         "counter": false
       },
       {
@@ -177,7 +158,6 @@
         "description": "4x5 mit Zusatzgewicht, mittlere bis breite Griffe",
         "instructions": "Ausführung:Ziehe dich mit kontrollierter Bewegung an mittleren bis breiten Griffen nach oben, ohne Schwung – Schultern aktiv, Körper in Spannung.",
         "musclegroup": "Latissimus, Bizeps, Unterarme, Trapez, Rhomboiden.",
-        "video": "videos/klimmzug-griffbrett.mp4",
         "counter": true
       }
     ],
@@ -187,7 +167,6 @@
         "description": "4x4–6 Wiederholungen mit Zusatzgewicht",
         "instructions": "Ausführung:Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich.",
         "musclegroup": "Latissimus, Bizeps, Griffmuskulatur, Schultern.",
-        "video": "videos/klimmzuege-kugeln.mp4",
         "counter": true
       },
       {
@@ -195,7 +174,6 @@
         "description": "Schräge tiefe Position – 4x10–12",
         "instructions": "Ausführung: Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.", 
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
-        "video": "videos/rudern-ringe.mp4",
         "counter": true
       },
       {
@@ -203,7 +181,6 @@
         "description": "4x25 Sekunden",
         "instructions": "Ausführung: Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.", 
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core",
-        "video": "videos/haengen-kugeln.mp4",
         "counter": false
       }
     ],
@@ -213,7 +190,6 @@
         "description": "6 Sekunden – 4–5 Sätze mit maximaler Belastung (Zusatzgewicht möglich)",
         "instructions": "Ausführung: Hänge dich für 6 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung.",
         "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
-        "video": "videos/max-haenge.mp4",
         "counter": false
       },
       {
@@ -221,7 +197,6 @@
         "description": "An Ringen – 4x12 Sekunden mit Resistance Bands",
         "instructions": "Ausführung: Ziehe deine Knie zur Brust und halte deinen Körper waagerecht an den Ringen – Schultern tief, Core maximal angespannt.",
         "musclegroup": "Latissimus, Bauchmuskeln, Schultern, Rückenstrecker",
-        "video": "videos/tuck-front-lever.mp4",
         "counter": false
       },
       {
@@ -229,7 +204,6 @@
         "description": "4x10, engere Körperposition",
         "instructions": "Ausführung: Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.", 
-        "video": "videos/curls-ringe.mp4",
         "counter": true
       }
     ],
@@ -239,7 +213,6 @@
         "description": "Optional Mobility-Training",
         "instructions": "Nutze den Tag zur aktiven Regeneration: Führe leichtes Stretching für Schultern, Rücken und Beine durch oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.", 
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
-        "video": "videos/stretching.mp4",
         "counter": false
       }
     ],
@@ -249,7 +222,6 @@
         "description": "4x4–6 Wiederholungen",
         "instructions": "Ausführung: Ziehe dich einseitig hoch, während der andere Arm nur leicht unterstützt – Körperspannung und Kontrolle stehen im Fokus.",
         "musclegroup": "Latissimus, Bizeps, Core, Schulterstabilisatoren",
-        "video": "videos/archer-pullups.mp4",
         "counter": true
       },
       {
@@ -257,14 +229,13 @@
         "description": "4x10–12, tiefere Ringe",
         "instructions": "Ausführung: Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.", 
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
-        "video": "videos/ring-dips.mp4"
+        "counter": true
       },
       {
         "exercise": "L-Sit",
         "description": "An Klimmzugstange oder Ringen – 4x15 Sekunden",
         "instructions": "Ausführung: Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen.",
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps",
-        "video": "videos/l-sit.mp4",
         "counter": false
       }
     ],
@@ -274,7 +245,6 @@
         "description": "Verschiedene Griffe – 4x25 Sekunden mit Zusatzgewicht",
         "instructions": "Ausführung: Hänge dich an verschiedene Griffarten am Board (z. B. Crimps, Sloper) und halte möglichst gleichmäßig mit aktiver Schulter.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern (isometrisch).", 
-        "video": "videos/haengezeit-griffbrett.mp4",
         "counter": false
       },
       {
@@ -282,7 +252,6 @@
         "description": "Schulteraktivierung – 4x12",
         "instructions": "Ausführung: Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, unterer Rücken.",
-        "video": "videos/shrugs.mp4",
         "counter": true
       },
       {
@@ -290,7 +259,6 @@
         "instructions": "Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen.",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
         "description": "4x10, tiefere Ringe",
-        "video": "videos/stabilisation-ringe.mp4",
         "counter": true
       }
     ],
@@ -300,7 +268,6 @@
         "description": "Regeneration & intensiveres Mobility",
         "instructions": "Ausführung: Mobilisiere Schultern und Wirbelsäule durch dynamische Dehnungen und leichte Kräftigungsübungen wie Wand-Slides oder Armkreise.",
         "musclegroup": "Fokus auf Beweglichkeit und Gelenkpflege, keine Kraftbelastung.",
-        "video": "videos/mobility.mp4",
         "counter": false
       }
     ]
@@ -311,7 +278,6 @@
       {
         "exercise": "Kurze Max-Intervall-Hänge",
         "description": "3x max. 3 Sekunden mit hohem Gewicht, kleine Leisten",
-        "video": "videos/kurz-max-haenge.mp4",
         "instructions": "Ausführung: Hänge dich für maximal 3 Sekunden an sehr kleine Leisten mit Zusatzgewicht – volle Körperspannung und Schulteraktivität.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Core (isometrisch).",
         "counter": false
@@ -319,7 +285,6 @@
       {
         "exercise": "Einarmige Haltearbeit schwer",
         "description": "2x10–12 Sek. pro Arm, sehr kleine Leiste, Zusatzgewicht",
-        "video": "videos/haltearbeit-schwer.mp4",
         "instructions": "Ausführung: Halte dich mit einer Hand an einer kleinen Leiste mit zusätzlichem Gewicht – kontrollierte Schulterposition und aktive Rumpfspannung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schulterstabilisatoren, Core.",
         "counter": false
@@ -327,7 +292,6 @@
       {
         "exercise": "Klimmzüge mit Gewicht",
         "description": "5x3 mit Zusatzgewicht, breite Griffe",
-        "video": "videos/klimmzug-gewicht.mp4",
         "instructions": "Ausführung: Ziehe dich mit Zusatzgewicht kontrolliert an mittleren bis breiten Griffen nach oben – ohne Schwung, Fokus auf Kraftausnutzung.",
         "musclegroup": "Latissimus, Bizeps, Trapez, Rhomboiden, Unterarme.",
         "counter": true
@@ -337,7 +301,6 @@
       {
         "exercise": "Explosive Kugel-Klimmzüge",
         "description": "4x3 explosive Wiederholungen mit kurzer Haltephase",
-        "video": "videos/explosiv-kugeln.mp4",
         "instructions": "Ausführung: Ziehe dich explosiv an Kugeln hoch, halte kurz oben und lasse dich kontrolliert ab – hohe Körperspannung.",
         "musclegroup": "Latissimus, Bizeps, Griffkraft, Core, Schultern.",
         "counter": true
@@ -345,7 +308,6 @@
       {
         "exercise": "Tiefe Ruderzüge an Ringen",
         "description": "5x8 in sehr flacher Position",
-        "video": "videos/rudern-tief.mp4",
         "instructions": "Ausführung: Ziehe dich aus fast horizontaler Position kraftvoll an die Ringe – Rücken bleibt stabil, Schultern aktiv.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Core, Rückenstrecker.",
         "counter": true
@@ -353,7 +315,6 @@
       {
         "exercise": "Langes Hängen an Kugeln",
         "description": "3x30 Sekunden an instabilen Griffen",
-        "video": "videos/langes-haengen.mp4",
         "instructions": "Ausführung: Hänge dich mit aktiven Schultern und gestrecktem Körper an die Kugeln – kontrollierte Atmung und Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core.",
         "counter": false
@@ -363,7 +324,6 @@
       {
         "exercise": "Maximales Gewicht-Hängen",
         "description": "4x3–5 Sek. mit höchstem Gewicht",
-        "video": "videos/maximalgewicht-haengen.mp4",
         "instructions": "Ausführung: Hänge dich mit maximaler Zusatzbelastung für 3–5 Sekunden an kleine Griffe – voller Fokus auf Körperspannung.", 
         "musclegroup": "Fingerbeuger, Unterarme, Rücken (isometrisch), Core.",
         "counter": false
@@ -371,7 +331,6 @@
       {
         "exercise": "Tuck-Front-Lever mit Haltevariation",
         "description": "3x10 Sek. + 3 Sek. negatives Absenken",
-        "video": "videos/lever-variation.mp4",
         "instructions": "Ausführung: Halte die Tuck-Position 10 Sekunden und senke dich dann langsam in die Ausgangsposition ab.",
         "musclegroup": "Latissimus, Bauch, Schultergürtel, Rückenstrecker.",
         "counter": false
@@ -379,7 +338,6 @@
       {
         "exercise": "Eng-geführte Ring-Curls",
         "description": "4x10 mit Rumpfspannung",
-        "video": "videos/curls-eng.mp4",
         "instructions": "Ausführung: Ziehe die Ringe mit eng anliegendem Ellenbogen nach oben – kontrollierte Bewegung, kein Schwung.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
         "counter": true
@@ -389,7 +347,6 @@
       {
         "exercise": "Pause oder intensives Mobility",
         "description": "Optional gezielte Dehnung & Faszienarbeit",
-        "video": "videos/mobility-intensiv.mp4",
         "instructions": "Ausführung: Nutze den Tag für tiefgehende Mobilisation, z. B. mit langen Dehnungen, aktiven Schulterkreisen oder Faszienrollen.",
         "musclegroup": "Schultergelenke, Brustwirbelsäule, Hüfte, Core-Stabilität.",
         "counter": false
@@ -399,7 +356,6 @@
       {
         "exercise": "Explosive Archer Pull-Ups",
         "description": "3x4 dynamisch mit kurzer Haltephase",
-        "video": "videos/archer-explosiv.mp4",
         "instructions": "Ausführung: Ziehe dich kraftvoll einseitig hoch, halte kurz oben und wechsle die Seite – Spannung im gesamten Körper.",
         "musclegroup": "Latissimus, Bizeps, Schultern, Core.",
         "counter": true
@@ -407,7 +363,6 @@
       {
         "exercise": "Tiefe Ring Dips mit Pause",
         "description": "4x6–8 mit 2 Sek. Pause unten",
-        "video": "videos/deep-ring-dips.mp4",
         "instructions": "Ausführung: Senke dich tief zwischen den Ringen ab, halte unten kurz inne und drücke dich dann mit voller Kraft wieder hoch.",
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
         "counter": false
@@ -415,7 +370,6 @@
       {
         "exercise": "L-Sit Progression",
         "description": "4x15–20 Sek. mit gestreckten Beinen",
-        "video": "videos/l-sit-progression.mp4",
         "instructions": "Ausführung: Halte den L-Sit mit voll gestreckten Beinen und geradem Rücken – Spannung durch Bauch und Beine.",
         "musclegroup": "Bauch, Hüftbeuger, Schultern, Trizeps.",
         "counter": false
@@ -425,7 +379,6 @@
       {
         "exercise": "Langes Griffbrett-Hängen schwer",
         "description": "4x30 Sekunden mit Gewicht, verschiedene Griffe",
-        "video": "videos/lang-haengen-griffbrett.mp4",
         "instructions": "Ausführung: Hänge an unterschiedlichen Griffen mit Zusatzgewicht – gleichmäßiger Druck und aktive Schulterhaltung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern.",
         "counter": false
@@ -433,7 +386,6 @@
       {
         "exercise": "Explosive Shrugs",
         "description": "4x10 mit betonter Kontraktion",
-        "video": "videos/shrugs-explosiv.mp4",
         "instructions": "Ausführung: Ziehe aus gestreckten Armen die Schultern explosiv nach oben und halte kurz, dann langsam ablassen.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, Rücken.",
         "counter": true
@@ -441,7 +393,6 @@
       {
         "exercise": "Instabile Schulterarbeit an tiefen Ringen",
         "description": "4x10, z.B. Ring Y-Raises",
-        "video": "videos/instabil-schulter.mp4",
         "instructions": "Ausführung: Führe Y- oder T-Bewegungen an tief hängenden Ringen kontrolliert aus – Fokus auf Schulterführung.",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
         "counter": true
@@ -451,7 +402,6 @@
       {
         "exercise": "Mobility & Recovery-Flow",
         "description": "Regeneration mit aktiver Mobilität",
-        "video": "videos/recovery-flow.mp4",
         "instructions": "Ausführung: Nutze Bewegungsflüsse (z. B. Schulterkreise, Deep Squats, kontrollierte Armbewegungen) zur Regeneration.",
         "musclegroup": "Fokus auf Mobilisation ganzer Ketten, vor allem Schultern, Hüfte und Wirbelsäule.",
         "counter": false
