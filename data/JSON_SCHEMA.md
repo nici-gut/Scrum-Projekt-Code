@@ -29,8 +29,8 @@ Diese Woche enthält die sieben Wochentage:
 Jeder Tag enthält eine **Liste von Übungen**.
 
 - exercise (Name der Übung)
-- description (Titel der Übung)
-- instructions (Beschreibung der Übung)
+- description (Beschreibung der Übung)
+- instructions (Anleitung der Übung)
 - musclegroup (Muskelgruppen die Angesprochen werden)
 - video (Video verlinkung passend zur Übung)
 - counter (ob die Übung ein Zähler benötigt: true/false)
@@ -57,7 +57,7 @@ Jeder Tag enthält eine **Liste von Übungen**.
         "sets": 2
     },
     {
-         "exercise": "Einarmige Haltearbeit",
+        "exercise": "Einarmige Haltearbeit",
         "description": "10–15 Sekunden pro Arm, größere Leiste",
         "instructions": "Halte dich mit einer Hand an einer größeren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
