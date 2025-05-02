@@ -172,6 +172,26 @@ video#uebungsvideo {
   text-align: center;
 }
 
+/* Fortschrittsbalken-Container */
+#progress-bar-container {
+  width: 100%;
+  max-width: 700px;
+  height: 20px;
+  background-color: #e0e0e0; /* Hintergrundfarbe des Containers */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px auto; /* Abstand zum Timer */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fortschrittsbalken */
+#progress-bar {
+  height: 100%;
+  width: 100%; /* Startet bei voller Breite */
+  background-color: var(--main-orange); /* Standardfarbe (Übung) */
+  transition: width 0.1s linear, background-color 0.3s ease;
+}
+
 /* Responsive Anpassungen */
 @media (max-width: 600px) {
   h1#übungen {

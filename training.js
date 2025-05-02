@@ -13,36 +13,52 @@ function updateAnzeige() {
   document.getElementById('zeit').textContent = `${minuten}:${sek}`;
 }
 
+function updateProgressBar(totalDuration, remainingTime, isPause) {
+  const progressBar = document.getElementById('progress-bar');
+  if (!progressBar) return; // Sicherstellen, dass das Element existiert
+  const progress = (remainingTime / totalDuration) * 100;
+  progressBar.style.width = `${progress}%`;
+  progressBar.style.backgroundColor = isPause ? 'green' : 'var(--main-orange)';
+}
+
 function starteTimer(duration, pauseDuration, sets, onComplete) {
   aktuellerSatz = 1;
   timerPhase = "exercise";
   restSekunden = duration;
   updateAnzeige();
+  updateProgressBar(duration, restSekunden, false);
 
   läuft = true;
   timer = setInterval(() => {
     if (restSekunden > 0) {
       restSekunden--;
       updateAnzeige();
+      updateProgressBar(
+        timerPhase === "exercise" ? duration : pauseDuration,
+        restSekunden,
+        timerPhase === "pause"
+      );
     } else {
       if (timerPhase === "exercise") {
         if (aktuellerSatz < sets) {
           timerPhase = "pause";
           restSekunden = pauseDuration;
           updateAnzeige();
+          updateProgressBar(pauseDuration, restSekunden, true);
         } else {
           clearInterval(timer);
           läuft = false;
-          onComplete(); // Alle Sätze abgeschlossen
+          onComplete();
         }
       } else if (timerPhase === "pause") {
         aktuellerSatz++;
         timerPhase = "exercise";
         restSekunden = duration;
         updateAnzeige();
+        updateProgressBar(duration, restSekunden, false);
       }
     }
-  }, 1000);
+  }, 1000); // Timer läuft weiterhin in 1-Sekunden-Schritten
 }
 
 document.getElementById('startBtn').addEventListener('click', () => {
@@ -112,11 +128,14 @@ function ladeUebung(index) {
   const uebung = aktuelleUebungen[index];
   const maxCount = uebung.maxCount || 0;
 
+  const progressBarContainer = document.getElementById('progress-bar-container');
+
   // Timer oder Zähler basierend auf dem JSON-Wert anzeigen
   if (uebung.counter) {
     // Zähler anzeigen
     document.getElementById('counter-container').style.display = 'flex';
     document.getElementById('zeit').style.display = 'none';
+    progressBarContainer.style.display = 'none'; // Fortschrittsbalken ausblenden
 
     // Start- und Stopp-Buttons ausblenden
     document.querySelector('.timer-controls').style.display = 'none';
@@ -133,6 +152,7 @@ function ladeUebung(index) {
     // Timer anzeigen
     document.getElementById('counter-container').style.display = 'none';
     document.getElementById('zeit').style.display = 'block';
+    progressBarContainer.style.display = 'block'; // Fortschrittsbalken einblenden
 
     // Start- und Stopp-Buttons einblenden
     document.querySelector('.timer-controls').style.display = 'flex';
