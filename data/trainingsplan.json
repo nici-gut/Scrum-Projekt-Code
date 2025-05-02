@@ -131,7 +131,10 @@
         "instructions": "Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen.",
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps.",
         "video": "videos/Scrum l-sit.mp4",
-        "counter": false
+        "counter": false,
+        "duration": 26,
+        "pauseDuration": 5,
+        "sets": 1
       }
     ],
     "Samstag": [
