@@ -37,6 +37,7 @@
       </video>
     </div>
     <br>
+
     <div class="timer-row">
       <div class="timer-controls">
         <span id="zeit">00:00</span>
@@ -67,10 +68,14 @@
       </div>
     </div>
     
-    <div id="zählerContainer" style="display: none; margin-top: 20px;">
-      <p>Sets abgeschlossen: <span id="zählerWert">0</span></p>
-      <button id="zählerPlus" class="btn">+1</button>
-      <button id="zählerReset" class="btn">Reset</button>
+    <div id="counter-container" style="display: none;">
+      <button id="decrementBtn" class="counter-button" aria-label="Decrement">-</button>
+      <span id="counterValue">0</span>
+      <button id="incrementBtn" class="counter-button" aria-label="Increment">+</button>
+    </div>
+    
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
     </div>
     
   <script src="training.js"></script>
