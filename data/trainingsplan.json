@@ -2,7 +2,6 @@
   "Woche 1/2": {
     "Montag": [
       {
-
         "exercise": "7/3 Intervall-Hängen",
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
         "instructions": "Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
@@ -11,7 +10,7 @@
         "counter": false,
         "duration": 7,
         "pauseDuration": 3,
-        "sets": 2
+        "sets": 8
       },
       {
         "exercise": "Einarmige Haltearbeit",
@@ -21,8 +20,8 @@
         "video": "videos/haltearbeit.mp4",
         "counter": false,
         "duration": 15,
-        "pauseDuration": 5,
-        "sets": 1
+        "pauseDuration": 3,
+        "sets": 2
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
@@ -61,7 +60,7 @@
         "video": "videos/haengen-kugeln.mp4",
         "counter": false,
         "duration": 20,
-        "pauseDuration": 10,
+        "pauseDuration": 5,
         "sets": 3
       }
     ],
@@ -70,11 +69,11 @@
         "exercise": "Max-Hänge",
         "description": "5 Sekunden – 3–4 Sätze mit maximaler Belastung",
         "instructions": "Hänge dich für 5 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung.",
-       "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
+        "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
         "video": "videos/max-haenge.mp4",
         "counter": false,
         "duration": 5,
-        "pauseDuration": 10,
+        "pauseDuration": 5,
         "sets": 4
       },
       {
@@ -82,7 +81,10 @@
         "description": "An Ringen – 3x10 Sekunden",
         "instructions": "Ziehe deine Knie zur Brust und halte deinen Körper waagerecht an den Ringen – Schultern tief, Core maximal angespannt.",
         "musclegroup": "Latissimus, Bauchmuskeln, Schultern, Rückenstrecker.",
-        "counter": false
+        "counter": false,
+        "duration": 10,
+        "pauseDuration": 5,
+        "sets": 3
       },
       {
         "exercise": "Bizeps-Curls mit Ringen",
@@ -129,9 +131,9 @@
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps.",
         "video": "videos/Scrum l-sit.mp4",
         "counter": false,
-        "duration": 26,
+        "duration": 10,
         "pauseDuration": 5,
-        "sets": 1
+        "sets": 3
       }
     ],
     "Samstag": [
@@ -140,7 +142,10 @@
         "description": "Verschiedene Griffe – 3x20 Sekunden",
         "instructions": "Hänge dich an verschiedene Griffarten am Board (z. B. Crimps, Sloper) und halte möglichst gleichmäßig mit aktiver Schulter.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern (isometrisch).",
-        "counter": false
+        "counter": false,
+        "duration": 20,
+        "pauseDuration": 5,
+        "sets": 3
       },
       {
         "exercise": "Shrugs an Klimmzugstange",
@@ -172,21 +177,26 @@
     ]
   },
   "Woche 3/4": {
-  
     "Montag": [
       {
         "exercise": "10/2 Intervall-Hängen",
         "description": "10 Sekunden hängen, 2 Sekunden Pause – 8–10 Wiederholungen",
         "instructions": "Ausführung: Hänge dich für 10 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 2 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
-        "counter": false
+        "counter": false,
+        "duration": 10,
+        "pauseDuration": 2,
+        "sets": 10
       },
       {
         "exercise": "Einarmige Haltearbeit",
         "description": "15–20 Sekunden pro Arm, kleinere Leiste",
         "instructions": "Ausführung: Halte dich mit einer Hand an einer kleineren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
-        "counter": false
+        "counter": false,
+        "duration": 20,
+        "pauseDuration": 3,
+        "sets": 2
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
@@ -211,7 +221,7 @@
       {
         "exercise": "Rudern an Ringen",
         "description": "Schräge tiefe Position – 4x10–12",
-        "instructions": "Ausführung: Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.", 
+        "instructions": "Ausführung: Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
         "video": "videos/rudern-ringe.mp4",
         "counter": true,
@@ -220,11 +230,14 @@
       {
         "exercise": "Hängen an Kugeln",
         "description": "4x25 Sekunden",
-        "instructions": "Ausführung: Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.", 
+        "instructions": "Ausführung: Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core",
         "video": "videos/haengen-kugeln.mp4",
         "counter": false,
-        "maxCount": 4
+        "maxCount": 4,
+        "duration": 25,
+        "pauseDuration": 3,
+        "sets": 4
       }
     ],
     "Mittwoch": [
@@ -233,20 +246,26 @@
         "description": "6 Sekunden – 4–5 Sätze mit maximaler Belastung (Zusatzgewicht möglich)",
         "instructions": "Ausführung: Hänge dich für 6 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung.",
         "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
-        "counter": false
+        "counter": false,
+        "duration": 6,
+        "pauseDuration": 3,
+        "sets": 5
       },
       {
         "exercise": "Tuck-Front-Lever-Halten",
         "description": "An Ringen – 4x12 Sekunden mit Resistance Bands",
         "instructions": "Ausführung: Ziehe deine Knie zur Brust und halte deinen Körper waagerecht an den Ringen – Schultern tief, Core maximal angespannt.",
         "musclegroup": "Latissimus, Bauchmuskeln, Schultern, Rückenstrecker",
-        "counter": false
+        "counter": false,
+        "duration": 12,
+        "pauseDuration": 3,
+        "sets": 4
       },
       {
         "exercise": "Bizeps-Curls mit Ringen",
         "description": "4x10, engere Körperposition",
         "instructions": "Ausführung: Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
-        "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.", 
+        "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
         "video": "videos/curls-ringe.mp4",
         "counter": true,
         "maxCount": 4
@@ -256,7 +275,7 @@
       {
         "exercise": "Pause oder leichtes Stretching",
         "description": "Optional Mobility-Training",
-        "instructions": "Nutze den Tag zur aktiven Regeneration: Führe leichtes Stretching für Schultern, Rücken und Beine durch oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.", 
+        "instructions": "Nutze den Tag zur aktiven Regeneration: Führe leichtes Stretching für Schultern, Rücken und Beine durch oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
         "counter": false
       }
@@ -274,8 +293,9 @@
       {
         "exercise": "Ring Dips",
         "description": "4x10–12, tiefere Ringe",
-        "instructions": "Ausführung: Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.", 
+        "instructions": "Ausführung: Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.",
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
+        "counter": true,
         "video": "videos/ring-dips.mp4",
         "maxCount": 4
       },
@@ -284,7 +304,10 @@
         "description": "An Klimmzugstange oder Ringen – 4x15 Sekunden",
         "instructions": "Ausführung: Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen.",
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps",
-        "counter": false
+        "counter": false,
+        "duration": 15,
+        "pauseDuration": 3,
+        "sets": 4
       }
     ],
     "Samstag": [
@@ -292,8 +315,11 @@
         "exercise": "Hängezeit am Griffbrett",
         "description": "Verschiedene Griffe – 4x25 Sekunden mit Zusatzgewicht",
         "instructions": "Ausführung: Hänge dich an verschiedene Griffarten am Board (z. B. Crimps, Sloper) und halte möglichst gleichmäßig mit aktiver Schulter.",
-        "musclegroup": "Fingerbeuger, Unterarme, Schultern (isometrisch).", 
-        "counter": false
+        "musclegroup": "Fingerbeuger, Unterarme, Schultern (isometrisch).",
+        "counter": false,
+        "duration": 25,
+        "pauseDuration": 3,
+        "sets": 4
       },
       {
         "exercise": "Shrugs an Klimmzugstange",
@@ -325,21 +351,26 @@
     ]
   },
   "Woche 5/6": {
-
     "Montag": [
       {
         "exercise": "Kurze Max-Intervall-Hänge",
         "description": "3x max. 3 Sekunden mit hohem Gewicht, kleine Leisten",
         "instructions": "Ausführung: Hänge dich für maximal 3 Sekunden an sehr kleine Leisten mit Zusatzgewicht – volle Körperspannung und Schulteraktivität.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Core (isometrisch).",
-        "counter": false
+        "counter": false,
+        "duration": 3,
+        "pauseDuration": 3,
+        "sets": 3
       },
       {
         "exercise": "Einarmige Haltearbeit schwer",
         "description": "2x10–12 Sek. pro Arm, sehr kleine Leiste, Zusatzgewicht",
         "instructions": "Ausführung: Halte dich mit einer Hand an einer kleinen Leiste mit zusätzlichem Gewicht – kontrollierte Schulterposition und aktive Rumpfspannung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schulterstabilisatoren, Core.",
-        "counter": false
+        "counter": false,
+        "duration": 12,
+        "pauseDuration": 3,
+        "sets": 2
       },
       {
         "exercise": "Klimmzüge mit Gewicht",
@@ -372,23 +403,32 @@
         "description": "3x30 Sekunden an instabilen Griffen",
         "instructions": "Ausführung: Hänge dich mit aktiven Schultern und gestrecktem Körper an die Kugeln – kontrollierte Atmung und Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core.",
-        "counter": false
+        "counter": false,
+        "duration": 5,
+        "pauseDuration": 5,
+        "sets": 4
       }
     ],
     "Mittwoch": [
       {
         "exercise": "Maximales Gewicht-Hängen",
         "description": "4x3–5 Sek. mit höchstem Gewicht",
-        "instructions": "Ausführung: Hänge dich mit maximaler Zusatzbelastung für 3–5 Sekunden an kleine Griffe – voller Fokus auf Körperspannung.", 
+        "instructions": "Ausführung: Hänge dich mit maximaler Zusatzbelastung für 3–5 Sekunden an kleine Griffe – voller Fokus auf Körperspannung.",
         "musclegroup": "Fingerbeuger, Unterarme, Rücken (isometrisch), Core.",
-        "counter": false
+        "counter": false,
+        "duration": 5,
+        "pauseDuration": 3,
+        "sets": 4
       },
       {
         "exercise": "Tuck-Front-Lever mit Haltevariation",
         "description": "3x10 Sek. + 3 Sek. negatives Absenken",
         "instructions": "Ausführung: Halte die Tuck-Position 10 Sekunden und senke dich dann langsam in die Ausgangsposition ab.",
         "musclegroup": "Latissimus, Bauch, Schultergürtel, Rückenstrecker.",
-        "counter": false
+        "counter": false,
+        "duration": 10,
+        "pauseDuration": 3,
+        "sets": 3
       },
       {
         "exercise": "Eng-geführte Ring-Curls",
@@ -422,14 +462,20 @@
         "description": "4x6–8 mit 2 Sek. Pause unten",
         "instructions": "Ausführung: Senke dich tief zwischen den Ringen ab, halte unten kurz inne und drücke dich dann mit voller Kraft wieder hoch.",
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
-        "counter": false
+        "counter": false,
+        "duration": 8,
+        "pauseDuration": 2,
+        "sets": 4
       },
       {
         "exercise": "L-Sit Progression",
         "description": "4x15–20 Sek. mit gestreckten Beinen",
         "instructions": "Ausführung: Halte den L-Sit mit voll gestreckten Beinen und geradem Rücken – Spannung durch Bauch und Beine.",
         "musclegroup": "Bauch, Hüftbeuger, Schultern, Trizeps.",
-        "counter": false
+        "counter": false,
+        "duration": 20,
+        "pauseDuration": 3,
+        "sets": 4
       }
     ],
     "Samstag": [
@@ -438,7 +484,10 @@
         "description": "4x30 Sekunden mit Gewicht, verschiedene Griffe",
         "instructions": "Ausführung: Hänge an unterschiedlichen Griffen mit Zusatzgewicht – gleichmäßiger Druck und aktive Schulterhaltung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern.",
-        "counter": false
+        "counter": false,
+        "duration": 30,
+        "pauseDuration": 5,
+        "sets": 4
       },
       {
         "exercise": "Explosive Shrugs",
@@ -468,4 +517,3 @@
     ]
   }
 }
-
