@@ -37,6 +37,7 @@
       </video>
     </div>
     <br>
+
     <div class="timer-row">
       <div class="timer-controls">
         <span id="zeit">00:00</span>
@@ -66,7 +67,15 @@
       </div>
     </div>
     
-      
+    <div id="counter-container" style="display: none;">
+      <button id="decrementBtn" class="counter-button" aria-label="Decrement">-</button>
+      <span id="counterValue">0</span>
+      <button id="incrementBtn" class="counter-button" aria-label="Increment">+</button>
+    </div>
+    
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
     
   <script src="training.js"></script>
 </body>
