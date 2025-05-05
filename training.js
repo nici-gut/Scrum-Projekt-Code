@@ -125,6 +125,13 @@ function ladeUebung(index) {
     return;
   }
 
+  // Vorherigen Timer stoppen und zurücksetzen
+  läuft = false;
+  clearInterval(timer);
+  restSekunden = 0;
+  updateAnzeige();
+  updateProgressBar(0, 0, false);
+
   const uebung = aktuelleUebungen[index];
   const maxCount = uebung.maxCount || 0;
 
