@@ -21,12 +21,14 @@ function updateProgressBar(totalDuration, remainingTime, isPause) {
   progressBar.style.backgroundColor = isPause ? 'green' : 'var(--main-orange)';
 }
 
-function starteTimer(duration, pauseDuration, sets, onComplete) {
-  aktuellerSatz = 1;
-  timerPhase = "exercise";
-  restSekunden = duration;
-  updateAnzeige();
-  updateProgressBar(duration, restSekunden, false);
+function starteTimer(duration, pauseDuration, sets, onComplete, resume = false) {
+  if (!resume) {
+    aktuellerSatz = 1;
+    timerPhase = "exercise";
+    restSekunden = duration;
+    updateAnzeige();
+    updateProgressBar(duration, restSekunden, false);
+  }
 
   läuft = true;
   timer = setInterval(() => {
@@ -48,7 +50,7 @@ function starteTimer(duration, pauseDuration, sets, onComplete) {
         } else {
           clearInterval(timer);
           läuft = false;
-          onComplete();
+          if (onComplete) onComplete(); // Nur ausführen, wenn der Timer tatsächlich abgelaufen ist
         }
       } else if (timerPhase === "pause") {
         aktuellerSatz++;
@@ -71,7 +73,8 @@ document.getElementById('startBtn').addEventListener('click', () => {
         aktuelleUebung.sets,
         () => {
           document.getElementById('weiterBtn').click(); // Automatisch zur nächsten Übung
-        }
+        },
+        true // Timer wird fortgesetzt
       );
     }
   }
@@ -85,8 +88,13 @@ document.getElementById('pauseBtn').addEventListener('click', () => {
 document.getElementById('resetBtn').addEventListener('click', () => {
   läuft = false;
   clearInterval(timer);
-  restSekunden = 0;
-  updateAnzeige();
+  const aktuelleUebung = aktuelleUebungen[aktuelleUebungIndex];
+  if (aktuelleUebung && !aktuelleUebung.counter) {
+    // Timer auf die ursprüngliche Dauer zurücksetzen
+    restSekunden = aktuelleUebung.duration;
+    updateAnzeige();
+    updateProgressBar(aktuelleUebung.duration, restSekunden, false);
+  }
 });
 
 // Funktion zum Initialisieren des Zählers
