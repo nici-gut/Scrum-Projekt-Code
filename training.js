@@ -111,7 +111,8 @@ function initCounter(maxCount, onMaxReached) {
       counterValue.textContent = counter;
 
       if (counter === maxCount) {
-        onMaxReached();
+        onMaxReached(); // Funktion ausführen, wenn die maximale Anzahl erreicht ist
+        zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen
       }
     }
   });
@@ -160,7 +161,7 @@ function ladeUebung(index) {
         aktuelleUebungIndex++;
         ladeUebung(aktuelleUebungIndex);
       } else {
-        window.location.href = "index.html";
+        zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen, wenn alle Übungen beendet sind
       }
     });
   } else {
@@ -181,7 +182,7 @@ function ladeUebung(index) {
           aktuelleUebungIndex++;
           ladeUebung(aktuelleUebungIndex);
         } else {
-          window.location.href = "index.html";
+          zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen, wenn alle Übungen beendet sind
         }
       }
     );
@@ -212,11 +213,24 @@ function ladeUebung(index) {
   } else {
     weiterButton.textContent = "Beenden";
     weiterButton.onclick = () => {
-      window.location.href = "index.html";
+      zeigeAbschlussmeldung();
     };
   }
 
   weiterButton.style.display = 'block';
+}
+
+// Funktion zum Anzeigen der Abschlussmeldung
+function zeigeAbschlussmeldung() {
+  const meldung = document.createElement('div');
+  meldung.id = 'abschlussmeldung';
+  meldung.textContent = "Herzlichen Glückwunsch, Sie haben das Workout erfolgreich beendet!";
+  document.body.appendChild(meldung);
+
+  setTimeout(() => {
+    meldung.remove();
+    window.location.href = "index.html";
+  }, 4000);
 }
 
 // Training laden

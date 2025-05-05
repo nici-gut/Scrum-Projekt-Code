@@ -25,7 +25,8 @@ body {
 h1#übungen {
   font-size: 2.5rem;
   font-weight: 700;
-  color: black; /* Schwarz statt orange */
+  color: black;
+  /* Schwarz statt orange */
   margin-bottom: 16px;
 }
 
@@ -45,39 +46,54 @@ video#uebungsvideo {
 
 /* Timer-Anzeige */
 #zeit {
-  font-size: 3rem; /* Größerer Text */
+  font-size: 3rem;
+  /* Größerer Text */
   font-weight: bold;
-  color: var(--main-orange); /* Auffällige Farbe */
-  background: rgba(255, 81, 0, 0.1); /* Leichter Hintergrund */
-  padding: 20px 40px; /* Innenabstand für bessere Lesbarkeit */
-  border-radius: 12px; /* Abgerundete Ecken */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Schatten für Tiefe */
-  margin-bottom: 20px; /* Abstand zu anderen Elementen */
-  display: inline-block; /* Zentrierung */
+  color: var(--main-orange);
+  /* Auffällige Farbe */
+  background: rgba(255, 81, 0, 0.1);
+  /* Leichter Hintergrund */
+  padding: 20px 40px;
+  /* Innenabstand für bessere Lesbarkeit */
+  border-radius: 12px;
+  /* Abgerundete Ecken */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Schatten für Tiefe */
+  margin-bottom: 20px;
+  /* Abstand zu anderen Elementen */
+  display: inline-block;
+  /* Zentrierung */
   text-align: center;
 }
 
 /* Timer-Bereich inkl. Weiter-Button */
 .timer-row {
   display: flex;
-  justify-content: center; /* Zentriert alle Elemente horizontal */
-  align-items: center; /* Zentriert alle Elemente vertikal */
-  gap: 20px; /* Abstand zwischen den Elementen */
+  justify-content: center;
+  /* Zentriert alle Elemente horizontal */
+  align-items: center;
+  /* Zentriert alle Elemente vertikal */
+  gap: 20px;
+  /* Abstand zwischen den Elementen */
   margin-top: 30px;
-  flex-wrap: wrap; /* Elemente umbrechen, falls der Platz nicht ausreicht */
+  flex-wrap: wrap;
+  /* Elemente umbrechen, falls der Platz nicht ausreicht */
 }
 
 .timer-controls {
   display: flex;
-  justify-content: center; /* Steuerbuttons zentrieren im Block */
+  justify-content: center;
+  /* Steuerbuttons zentrieren im Block */
   align-items: center;
   gap: 20px;
-  flex: 1; /* Nimmt den verfügbaren Platz */
+  flex: 1;
+  /* Nimmt den verfügbaren Platz */
 }
 
 /* Runde Button-Styles für Timer */
 .round-button {
-  width: 70px; /* Größerer Button */
+  width: 70px;
+  /* Größerer Button */
   height: 70px;
   border-radius: 50%;
   border: none;
@@ -87,16 +103,19 @@ video#uebungsvideo {
   justify-content: center;
   align-items: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Tieferer Schatten */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  /* Tieferer Schatten */
 }
 
 .round-button:hover {
-  transform: scale(1.2); /* Größerer Hover-Effekt */
+  transform: scale(1.2);
+  /* Größerer Hover-Effekt */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .icon {
-  width: 32px; /* Größere Icons */
+  width: 32px;
+  /* Größere Icons */
   height: 32px;
   fill: white;
 }
@@ -106,7 +125,8 @@ video#uebungsvideo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Mehr Abstand nach oben */
+  margin-top: 20px;
+  /* Mehr Abstand nach oben */
 }
 
 .weiter-button {
@@ -123,21 +143,27 @@ video#uebungsvideo {
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Schatten für Tiefe */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Schatten für Tiefe */
 }
 
 .weiter-button:hover {
   background-color: #e04a00;
-  transform: scale(1.1); /* Leichter Hover-Effekt */
+  transform: scale(1.1);
+  /* Leichter Hover-Effekt */
 }
 
 /* Styling für den Zähler-Container */
 #counter-container {
   display: flex;
-  align-items: center; /* Vertikale Zentrierung */
-  justify-content: center; /* Horizontale Zentrierung */
-  gap: 15px; /* Abstand zwischen den Zähler-Buttons */
-  margin-top: 20px; /* Abstand nach oben */
+  align-items: center;
+  /* Vertikale Zentrierung */
+  justify-content: center;
+  /* Horizontale Zentrierung */
+  gap: 15px;
+  /* Abstand zwischen den Zähler-Buttons */
+  margin-top: 20px;
+  /* Abstand nach oben */
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
@@ -177,19 +203,70 @@ video#uebungsvideo {
   width: 100%;
   max-width: 700px;
   height: 20px;
-  background-color: #e0e0e0; /* Hintergrundfarbe des Containers */
+  background-color: #e0e0e0;
+  /* Hintergrundfarbe des Containers */
   border-radius: 10px;
   overflow: hidden;
-  margin: 20px auto; /* Abstand zum Timer */
+  margin: 20px auto;
+  /* Abstand zum Timer */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Fortschrittsbalken */
 #progress-bar {
   height: 100%;
-  width: 100%; /* Startet bei voller Breite */
-  background-color: var(--main-orange); /* Standardfarbe (Übung) */
+  width: 100%;
+  /* Startet bei voller Breite */
+  background-color: var(--main-orange);
+  /* Standardfarbe (Übung) */
   transition: width 0.1s linear, background-color 0.3s ease;
+}
+
+/* Abschlussmeldung */
+#abschlussmeldung {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  max-width: 1080px;
+  background-color: var(--main-orange);
+  color: white;
+  padding: 150px 50px 180px 50px;
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeInOut 4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Animation für die Abschlussmeldung */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
 }
 
 /* Responsive Anpassungen */
@@ -220,6 +297,12 @@ video#uebungsvideo {
   .icon {
     width: 20px;
     height: 20px;
+  }
+
+  #abschlussmeldung {
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 20px;
   }
 }
 
@@ -258,4 +341,3 @@ header a {
 header a:hover {
   color: #ff5100;
 }
-
