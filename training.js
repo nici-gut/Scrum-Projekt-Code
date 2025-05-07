@@ -129,7 +129,7 @@ function initCounter(maxCount, onMaxReached) {
 
 // Funktion zum Starten des Vorlauftimers
 function starteVorlauftimer(onComplete) {
-  let countdown = 5;
+  let countdown = 7;
   const progressBarContainer = document.getElementById('progress-bar-container');
   const progressBar = document.getElementById('progress-bar');
   const zeitElement = document.getElementById('zeit');
@@ -277,6 +277,7 @@ function ladeUebung(index) {
     videoElement.src = uebung.video;
     videoElement.style.display = 'block';
     videoElement.load();
+    videoElement.play(); // Video automatisch starten
   } else {
     videoElement.style.display = 'none';
   }
