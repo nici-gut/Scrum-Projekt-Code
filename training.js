@@ -283,4 +283,5 @@ document.getElementById('weiterBtn').addEventListener('click', () => {
 // Beim Laden der Seite Training initialisieren
 
 ladeTraining();
-}
+
+
