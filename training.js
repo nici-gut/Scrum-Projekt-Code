@@ -93,23 +93,6 @@ document.getElementById('pauseBtn').addEventListener('click', () => {
   }
 });
 
-document.getElementById('resetBtn').addEventListener('click', () => {
-  läuft = false;
-  clearInterval(timer);
-  const aktuelleUebung = aktuelleUebungen[aktuelleUebungIndex];
-  const videoElement = document.getElementById('uebungsvideo');
-  if (aktuelleUebung && !aktuelleUebung.counter) {
-    // Timer auf die ursprüngliche Dauer zurücksetzen
-    restSekunden = aktuelleUebung.duration;
-    updateAnzeige();
-    updateProgressBar(aktuelleUebung.duration, restSekunden, false);
-  }
-  if (videoElement) {
-    videoElement.pause(); // Video pausieren
-    videoElement.currentTime = 0; // Video zurücksetzen
-  }
-});
-
 // Funktion zum Initialisieren des Zählers
 function initCounter(maxCount, onMaxReached) {
   let counter = 0;
