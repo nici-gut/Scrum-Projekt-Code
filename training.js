@@ -66,6 +66,7 @@ function starteTimer(duration, pauseDuration, sets, onComplete, resume = false) 
 document.getElementById('startBtn').addEventListener('click', () => {
   if (!läuft) {
     const aktuelleUebung = aktuelleUebungen[aktuelleUebungIndex];
+    const videoElement = document.getElementById('uebungsvideo');
     if (aktuelleUebung && !aktuelleUebung.counter) {
       starteTimer(
         aktuelleUebung.duration,
@@ -76,6 +77,9 @@ document.getElementById('startBtn').addEventListener('click', () => {
         },
         true // Timer wird fortgesetzt
       );
+      if (videoElement) {
+        videoElement.play(); // Video starten
+      }
     }
   }
 });
@@ -83,17 +87,26 @@ document.getElementById('startBtn').addEventListener('click', () => {
 document.getElementById('pauseBtn').addEventListener('click', () => {
   läuft = false;
   clearInterval(timer);
+  const videoElement = document.getElementById('uebungsvideo');
+  if (videoElement) {
+    videoElement.pause(); // Video pausieren
+  }
 });
 
 document.getElementById('resetBtn').addEventListener('click', () => {
   läuft = false;
   clearInterval(timer);
   const aktuelleUebung = aktuelleUebungen[aktuelleUebungIndex];
+  const videoElement = document.getElementById('uebungsvideo');
   if (aktuelleUebung && !aktuelleUebung.counter) {
     // Timer auf die ursprüngliche Dauer zurücksetzen
     restSekunden = aktuelleUebung.duration;
     updateAnzeige();
     updateProgressBar(aktuelleUebung.duration, restSekunden, false);
+  }
+  if (videoElement) {
+    videoElement.pause(); // Video pausieren
+    videoElement.currentTime = 0; // Video zurücksetzen
   }
 });
 

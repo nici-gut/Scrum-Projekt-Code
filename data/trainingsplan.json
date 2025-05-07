@@ -103,7 +103,8 @@
         "description": "Optional Mobility-Training",
         "instructions": "Nutze den Tag zur aktiven Regeneration. Leichtes Stretching für Schultern, Rücken und Beine oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
-        "counter": false
+        "counter": false,
+        "video": "videos/Pausen und Streching.mp4"
       }
     ],
     "Freitag": [
