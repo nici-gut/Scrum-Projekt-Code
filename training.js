@@ -66,6 +66,7 @@ function starteTimer(duration, pauseDuration, sets, onComplete, resume = false) 
 document.getElementById('startBtn').addEventListener('click', () => {
   if (!läuft) {
     const aktuelleUebung = aktuelleUebungen[aktuelleUebungIndex];
+    const videoElement = document.getElementById('uebungsvideo');
     if (aktuelleUebung && !aktuelleUebung.counter) {
       starteTimer(
         aktuelleUebung.duration,
@@ -76,6 +77,9 @@ document.getElementById('startBtn').addEventListener('click', () => {
         },
         true // Timer wird fortgesetzt
       );
+      if (videoElement) {
+        videoElement.play(); // Video starten
+      }
     }
   }
 });
@@ -83,17 +87,9 @@ document.getElementById('startBtn').addEventListener('click', () => {
 document.getElementById('pauseBtn').addEventListener('click', () => {
   läuft = false;
   clearInterval(timer);
-});
-
-document.getElementById('resetBtn').addEventListener('click', () => {
-  läuft = false;
-  clearInterval(timer);
-  const aktuelleUebung = aktuelleUebungen[aktuelleUebungIndex];
-  if (aktuelleUebung && !aktuelleUebung.counter) {
-    // Timer auf die ursprüngliche Dauer zurücksetzen
-    restSekunden = aktuelleUebung.duration;
-    updateAnzeige();
-    updateProgressBar(aktuelleUebung.duration, restSekunden, false);
+  const videoElement = document.getElementById('uebungsvideo');
+  if (videoElement) {
+    videoElement.pause(); // Video pausieren
   }
 });
 
@@ -125,6 +121,32 @@ function initCounter(maxCount, onMaxReached) {
 
   counterValue.textContent = counter;
   return counterContainer;
+}
+
+
+// Funktion zum Starten des Vorlauftimers
+function starteVorlauftimer(onComplete) {
+  let countdown = 7;
+  const progressBarContainer = document.getElementById('progress-bar-container');
+  const progressBar = document.getElementById('progress-bar');
+  const zeitElement = document.getElementById('zeit');
+
+  progressBarContainer.style.display = 'block';
+  progressBar.style.width = '100%';
+  progressBar.style.backgroundColor = '#4e1900'; // Farbe für den Vorlauftimer
+  zeitElement.textContent = `00:05`;
+
+  const vorlaufInterval = setInterval(() => {
+    countdown--;
+    zeitElement.textContent = `00:0${countdown}`;
+    progressBar.style.width = `${(countdown / 5) * 100}%`;
+
+    if (countdown <= 0) {
+      clearInterval(vorlaufInterval);
+      progressBar.style.backgroundColor = 'var(--main-orange)'; // Zurück zur Standardfarbe
+      if (onComplete) onComplete();
+    }
+  }, 1000);
 }
 
 // Funktion zum Laden einer Übung
@@ -201,6 +223,7 @@ function ladeUebung(index) {
     videoElement.src = uebung.video;
     videoElement.style.display = 'block';
     videoElement.load();
+    videoElement.play(); // Video automatisch starten
   } else {
     videoElement.style.display = 'none';
   }

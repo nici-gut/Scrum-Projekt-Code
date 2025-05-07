@@ -6,7 +6,7 @@
         "description": "7 Sekunden hängen, 3 Sekunden Pause – 6–8 Wiederholungen",
         "instructions": "Hänge dich für 7 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 3 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
-        "video": "videos/Level.mp4",
+        "video": "videos/Intervall Hängen.mp4",
         "counter": false,
         "duration": 7,
         "pauseDuration": 3,
@@ -18,7 +18,7 @@
         "description": "10–15 Sekunden pro Arm, größere Leiste",
         "instructions": "Halte dich mit einer Hand an einer größeren Leiste und stabilisiere deinen Körper durch Schulteraktivierung und Core-Spannung.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Latissimus.",
-        "video": "videos/haltearbeit.mp4",
+        "video": "videos/Einarmige Halteareit.mp4",
         "counter": false,
         "duration": 15,
         "pauseDuration": 3,
@@ -105,7 +105,8 @@
         "description": "Optional Mobility-Training",
         "instructions": "Nutze den Tag zur aktiven Regeneration. Leichtes Stretching für Schultern, Rücken und Beine oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
-        "counter": false
+        "counter": false,
+        "video": "videos/Pausen und Streching.mp4"
       }
     ],
     "Freitag": [
