@@ -17,8 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Cleanup Electron Builder Cache
-        run: |
-          rm -rf /home/runner/.cache/electron-builder/appimage/appimage-12.0.1
+        run: rm -rf /home/runner/.cache/electron-builder/appimage/appimage-12.0.1
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
