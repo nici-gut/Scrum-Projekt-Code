@@ -113,6 +113,12 @@ video#uebungsvideo {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+.round-button:active {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  background-color: #b53e07;
+}
+
 .icon {
   width: 32px;
   /* Größere Icons */

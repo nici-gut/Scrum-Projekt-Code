@@ -235,24 +235,29 @@ function zeigeAbschlussmeldung() {
     window.location.href = "index.html";
   }, 4000);
 }
-
 // Training laden
 async function ladeTraining() {
   const urlParams = new URLSearchParams(window.location.search);
   const woche = urlParams.get('week');
   const tag = urlParams.get('day');
-
   const response = await fetch('data/trainingsplan.json');
   const daten = await response.json();
-
   aktuelleUebungen = daten[woche]?.[tag] || [];
-
   if (aktuelleUebungen.length === 0) {
     document.getElementById('übungen').textContent = "Keine Übungen gefunden.";
     return;
   }
+  // Erste Übung laden
 
   ladeUebung(aktuelleUebungIndex);
 }
+// "Weiter"-Button Funktionalität
+document.getElementById('weiterBtn').addEventListener('click', () => {
+  localStorage.clear();
+  aktuelleUebungIndex++;
+  ladeUebung(aktuelleUebungIndex);
+});
+// Beim Laden der Seite Training initialisieren
 
 ladeTraining();
+}

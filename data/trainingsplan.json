@@ -22,7 +22,8 @@
         "counter": false,
         "duration": 15,
         "pauseDuration": 3,
-        "sets": 2
+        "sets": 2,
+        "time": "180"
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
@@ -31,7 +32,8 @@
         "musclegroup": "Latissimus, Bizeps, Unterarme, Trapez, Rhomboiden.",
         "video": "videos/klimmzug-griffbrett.mp4",
         "counter": true,
-        "maxCount": 3
+        "maxCount": 3,
+        "time": "600"
       }
     ],
     "Dienstag": [
