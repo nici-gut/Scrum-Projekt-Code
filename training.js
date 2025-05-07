@@ -283,7 +283,10 @@ function ladeUebung(index) {
 function zeigeAbschlussmeldung() {
   const meldung = document.createElement('div');
   meldung.id = 'abschlussmeldung';
-  meldung.textContent = "Herzlichen Glückwunsch, Sie haben das Workout erfolgreich beendet!";
+  meldung.innerHTML = `
+    <span class="abschluss-header">Herzlichen Glückwunsch!</span><br>
+    <span class="abschluss-text">Sie haben das Workout erfolgreich beendet!</span>
+  `;
   document.body.appendChild(meldung);
 
   setTimeout(() => {
