@@ -188,7 +188,7 @@ function ladeUebung(index) {
       document.getElementById('zeit').style.display = 'none';
       progressBarContainer.style.display = 'none';
       timerControls.style.display = 'none';
-    } else if (hasTimerData) {
+    } else if (hasTimerData || uebung.exercise === "Pausen") {
       counterContainer.style.display = 'none';
       document.getElementById('zeit').style.display = 'block';
       progressBarContainer.style.display = 'block';
@@ -197,10 +197,37 @@ function ladeUebung(index) {
     weiterButton.style.display = 'block';
   };
 
-  if (uebung.counter) {
+  if (uebung.exercise === "Pausen") {
+    // Timer für Pausen anzeigen
+    hideAllUI();
+    showRelevantUI();
+    weiterButton.textContent = index < aktuelleUebungen.length - 1 ? "Weiter" : "Beenden";
+    weiterButton.onclick = () => {
+      if (index < aktuelleUebungen.length - 1) {
+        aktuelleUebungIndex++;
+        ladeUebung(aktuelleUebungIndex);
+      } else {
+        zeigeAbschlussmeldung();
+      }
+    };
+
+    starteTimer(
+      uebung.duration,
+      0, // Keine Pause nach der Pause
+      1, // Nur ein Satz
+      () => {
+        if (index < aktuelleUebungen.length - 1) {
+          aktuelleUebungIndex++;
+          ladeUebung(aktuelleUebungIndex);
+        } else {
+          zeigeAbschlussmeldung();
+        }
+      }
+    );
+  } else if (uebung.counter) {
     // Zähler anzeigen (Setbasierte Übung)
-    hideAllUI(); // Alle UI-Elemente ausblenden
-    showRelevantUI(); // Direkt relevante UI-Elemente einblenden (kein Vorlauftimer)
+    hideAllUI();
+    showRelevantUI();
     weiterButton.textContent = index < aktuelleUebungen.length - 1 ? "Weiter" : "Beenden";
     weiterButton.onclick = () => {
       if (index < aktuelleUebungen.length - 1) {
@@ -216,14 +243,14 @@ function ladeUebung(index) {
         aktuelleUebungIndex++;
         ladeUebung(aktuelleUebungIndex);
       } else {
-        zeigeAbschlussmeldung(); // Abschlussmeldung nur bei der letzten Übung
+        zeigeAbschlussmeldung();
       }
     });
   } else if (hasTimerData) {
     // Sekundenbasierte Übung (mit Vorlauftimer)
-    hideAllUI(); // Alle UI-Elemente ausblenden während des Vorlauftimers
+    hideAllUI();
     starteVorlauftimer(() => {
-      showRelevantUI(); // Nach dem Vorlauftimer relevante UI-Elemente einblenden
+      showRelevantUI();
       weiterButton.textContent = index < aktuelleUebungen.length - 1 ? "Weiter" : "Beenden";
       weiterButton.onclick = () => {
         if (index < aktuelleUebungen.length - 1) {
@@ -243,15 +270,15 @@ function ladeUebung(index) {
             aktuelleUebungIndex++;
             ladeUebung(aktuelleUebungIndex);
           } else {
-            zeigeAbschlussmeldung(); // Abschlussmeldung nur bei der letzten Übung
+            zeigeAbschlussmeldung();
           }
         }
       );
     });
   } else {
     // Weder Timer noch Zähler anzeigen
-    hideAllUI(); // Alle UI-Elemente ausblenden
-    showRelevantUI(); // Direkt relevante UI-Elemente einblenden
+    hideAllUI();
+    showRelevantUI();
     weiterButton.textContent = index < aktuelleUebungen.length - 1 ? "Weiter" : "Beenden";
     weiterButton.onclick = () => {
       if (index < aktuelleUebungen.length - 1) {
