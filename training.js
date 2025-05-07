@@ -112,7 +112,6 @@ function initCounter(maxCount, onMaxReached) {
 
       if (counter === maxCount) {
         onMaxReached(); // Funktion ausführen, wenn die maximale Anzahl erreicht ist
-        zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen
       }
     }
   });
@@ -161,7 +160,7 @@ function ladeUebung(index) {
         aktuelleUebungIndex++;
         ladeUebung(aktuelleUebungIndex);
       } else {
-        zeigeAbschlussmeldung();
+        zeigeAbschlussmeldung(); // Abschlussmeldung nur bei der letzten Übung
       }
     });
   } else if (hasTimerData) {
@@ -180,7 +179,7 @@ function ladeUebung(index) {
           aktuelleUebungIndex++;
           ladeUebung(aktuelleUebungIndex);
         } else {
-          zeigeAbschlussmeldung();
+          zeigeAbschlussmeldung(); // Abschlussmeldung nur bei der letzten Übung
         }
       }
     );
