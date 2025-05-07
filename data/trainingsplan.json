@@ -235,7 +235,6 @@
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core",
         "video": "videos/haengen-kugeln.mp4",
         "counter": false,
-        "maxCount": 4,
         "duration": 25,
         "pauseDuration": 3,
         "sets": 4
