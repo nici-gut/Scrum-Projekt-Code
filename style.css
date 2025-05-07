@@ -228,6 +228,7 @@ section {
   object-fit: cover;
   border-radius: 10px;
 }
+
 .nach-oben-btn {
   position: fixed;
   bottom: 20px;
@@ -235,10 +236,22 @@ section {
   text-decoration: none;
   background-color: #ff5100;
   color: white;
-  padding: 10px 15px;
+  width: 60px;
+  /* Einheitliche Breite */
+  height: 60px;
+  /* Einheitliche Höhe */
+  aspect-ratio: 1 / 1;
+  /* Sicherstellen, dass der Button immer quadratisch bleibt */
+  display: flex;
+  justify-content: center;
+  /* Horizontal zentrieren */
+  align-items: center;
+  /* Vertikal zentrieren */
   border-radius: 50%;
-  font-size: 18px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  /* Perfekt runde Form */
+  font-size: calc(0.5 * 60px);
+  /* Schriftgröße proportional zur Button-Größe */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s;
 }
 
