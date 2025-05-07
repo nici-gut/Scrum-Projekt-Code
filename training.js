@@ -188,7 +188,7 @@ function ladeUebung(index) {
       document.getElementById('zeit').style.display = 'none';
       progressBarContainer.style.display = 'none';
       timerControls.style.display = 'none';
-    } else if (hasTimerData || uebung.exercise === "Pausen") {
+    } else if (hasTimerData || uebung.exercise === "Pause") {
       counterContainer.style.display = 'none';
       document.getElementById('zeit').style.display = 'block';
       progressBarContainer.style.display = 'block';
@@ -197,7 +197,7 @@ function ladeUebung(index) {
     weiterButton.style.display = 'block';
   };
 
-  if (uebung.exercise === "Pausen") {
+  if (uebung.exercise === "Pause") {
     // Timer für Pausen anzeigen
     hideAllUI();
     showRelevantUI();

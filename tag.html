@@ -53,7 +53,7 @@
 
         if (übungen && übungen.length > 0) {
           // Filtere Pausen-Übungen heraus
-          const gefilterteÜbungen = übungen.filter(übung => übung.exercise !== "Pausen");
+          const gefilterteÜbungen = übungen.filter(übung => übung.exercise !== "Pause");
 
           gefilterteÜbungen.forEach((übung, index) => {
             const li = document.createElement('li');
