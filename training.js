@@ -112,7 +112,6 @@ function initCounter(maxCount, onMaxReached) {
 
       if (counter === maxCount) {
         onMaxReached(); // Funktion ausführen, wenn die maximale Anzahl erreicht ist
-        zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen
       }
     }
   });
@@ -146,14 +145,14 @@ function ladeUebung(index) {
 
   const progressBarContainer = document.getElementById('progress-bar-container');
 
-  // Timer oder Zähler basierend auf dem JSON-Wert anzeigen
+  // Prüfen, ob Timerdaten vorhanden sind
+  const hasTimerData = uebung.duration && uebung.pauseDuration && uebung.sets;
+
   if (uebung.counter) {
     // Zähler anzeigen
     document.getElementById('counter-container').style.display = 'flex';
     document.getElementById('zeit').style.display = 'none';
-    progressBarContainer.style.display = 'none'; // Fortschrittsbalken ausblenden
-
-    // Start- und Stopp-Buttons ausblenden
+    progressBarContainer.style.display = 'none';
     document.querySelector('.timer-controls').style.display = 'none';
 
     initCounter(maxCount, () => {
@@ -161,16 +160,14 @@ function ladeUebung(index) {
         aktuelleUebungIndex++;
         ladeUebung(aktuelleUebungIndex);
       } else {
-        zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen, wenn alle Übungen beendet sind
+        zeigeAbschlussmeldung(); // Abschlussmeldung nur bei der letzten Übung
       }
     });
-  } else {
+  } else if (hasTimerData) {
     // Timer anzeigen
     document.getElementById('counter-container').style.display = 'none';
     document.getElementById('zeit').style.display = 'block';
-    progressBarContainer.style.display = 'block'; // Fortschrittsbalken einblenden
-
-    // Start- und Stopp-Buttons einblenden
+    progressBarContainer.style.display = 'block';
     document.querySelector('.timer-controls').style.display = 'flex';
 
     starteTimer(
@@ -182,10 +179,16 @@ function ladeUebung(index) {
           aktuelleUebungIndex++;
           ladeUebung(aktuelleUebungIndex);
         } else {
-          zeigeAbschlussmeldung(); // Abschlussmeldung anzeigen, wenn alle Übungen beendet sind
+          zeigeAbschlussmeldung(); // Abschlussmeldung nur bei der letzten Übung
         }
       }
     );
+  } else {
+    // Weder Timer noch Zähler anzeigen
+    document.getElementById('counter-container').style.display = 'none';
+    document.getElementById('zeit').style.display = 'none';
+    progressBarContainer.style.display = 'none';
+    document.querySelector('.timer-controls').style.display = 'none';
   }
 
   // Übungstitel und Beschreibung aktualisieren
