@@ -18,7 +18,6 @@ function createWindow() {
   });
 
   win.loadFile('index.html');
-  win.webContents.openDevTools(); // öffnet die Konsole im Renderer
 }
 
 app.whenReady().then(createWindow);
