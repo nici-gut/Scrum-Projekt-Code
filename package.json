@@ -27,6 +27,7 @@
       "!node_modules/**/*",
       "!build",
       "!dist"
-    ]
+    ],
+    "icon": "Bilder/ClimbTime Logo_pur.icns"
   }
 }
