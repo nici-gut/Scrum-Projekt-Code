@@ -88,10 +88,10 @@
         "description": "3x20 Sekunden",
         "instructions": "Halte dich mit gestreckten Armen an den Kugeln, aktiviere die Schultern leicht und halte den Körper ruhig und stabil.",
         "musclegroup": "Unterarme, Fingerbeuger, Schulterstabilisatoren, Core.",
-        "video": "videos/.mp4",
+        "video": "videos/Hängen an Kugeln.mp4",
         "counter": false,
         "duration": 20,
-        "pauseDuration": 5,
+        "pauseDuration": 3,
         "sets": 3
       }
     ],
@@ -101,10 +101,10 @@
         "description": "5 Sekunden – 3–4 Sätze mit maximaler Belastung",
         "instructions": "Hänge dich für 5 Sekunden mit maximalem Krafteinsatz an eine kleine Leiste – Schultern aktiv, Core angespannt, keine Bewegung.",
         "musclegroup": "Fingerbeuger, Unterarme, Core (isometrisch).",
-        "video": "videos/.mp4",
+        "video": "videos/Max-Hängen.mp4",
         "counter": false,
         "duration": 5,
-        "pauseDuration": 5,
+        "pauseDuration": 3,
         "sets": 4
       },
       {
@@ -119,10 +119,10 @@
         "description": "An Ringen – 3x10 Sekunden",
         "instructions": "Ziehe deine Knie zur Brust und halte deinen Körper waagerecht an den Ringen – Schultern tief, Core maximal angespannt.",
         "musclegroup": "Latissimus, Bauchmuskeln, Schultern, Rückenstrecker.",
-        "video": "videos/I.mp4",
+        "video": "videos/Tuck-Front-Lever-Halten.mp4",
         "counter": false,
         "duration": 10,
-        "pauseDuration": 5,
+        "pauseDuration": 3,
         "sets": 3
       },
       {
@@ -190,10 +190,10 @@
         "description": "An Klimmzugstange oder Ringen – 3x10 Sekunden",
         "instructions": "Halte dich mit gestreckten Armen und angewinkelten oder gestreckten Beinen in einem stabilen 90°-Winkel – Spannung vom Bauch bis zu den Zehen.",
         "musclegroup": "Core (Bauch, Hüftbeuger), Schultern, Trizeps.",
-        "video": "videos/.mp4",
+        "video": "videos/L-Sit.mp4",
         "counter": false,
         "duration": 10,
-        "pauseDuration": 5,
+        "pauseDuration": 3,
         "sets": 3
       }
     ],
