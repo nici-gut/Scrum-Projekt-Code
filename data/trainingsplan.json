@@ -183,14 +183,15 @@
   "Woche 3/4": {
     "Montag": [
       {
-        "exercise": "10/2 Intervall-Hängen",
-        "description": "10 Sekunden hängen, 2 Sekunden Pause – 8–10 Wiederholungen",
+        "exercise": "10/3 Intervall-Hängen",
+        "description": "10 Sekunden hängen, 3 Sekunden Pause – 8–10 Wiederholungen",
         "instructions": "Ausführung: Hänge dich für 10 Sekunden mit aktiver Schulterkraft ans Griffbrett, gefolgt von 2 Sekunden Pause – halte dabei Körperspannung und kontrollierte Atmung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern, Rücken (isometrisch).",
         "counter": false,
         "duration": 10,
-        "pauseDuration": 2,
-        "sets": 10
+        "pauseDuration": 3,
+        "sets": 10,
+        "video": "videos/103 Intervallhängen2.mp4"
       },
       {
         "exercise": "Einarmige Haltearbeit",
@@ -200,7 +201,8 @@
         "counter": false,
         "duration": 20,
         "pauseDuration": 3,
-        "sets": 2
+        "sets": 2,
+        "video": "videos/Einarmigehaltearbeit2.mp4"
       },
       {
         "exercise": "Klimmzüge am Griffbrett",
@@ -253,7 +255,8 @@
         "counter": false,
         "duration": 6,
         "pauseDuration": 3,
-        "sets": 5
+        "sets": 5,
+        "video": "videos/Max-Hängen2.mp4"
       },
       {
         "exercise": "Tuck-Front-Lever-Halten",
@@ -263,7 +266,8 @@
         "counter": false,
         "duration": 12,
         "pauseDuration": 3,
-        "sets": 4
+        "sets": 4,
+        "video": "videos/Tuck-Front-Lever-Halten2.mp4"
       },
       {
         "exercise": "Bizeps-Curls mit Ringen",
@@ -311,7 +315,8 @@
         "counter": false,
         "duration": 15,
         "pauseDuration": 3,
-        "sets": 4
+        "sets": 4,
+        "video": "videos/L-Sit2.mp4"
       }
     ],
     "Samstag": [
