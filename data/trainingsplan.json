@@ -328,7 +328,8 @@
         "counter": false,
         "duration": 25,
         "pauseDuration": 3,
-        "sets": 4
+        "sets": 4,
+        "video": "videos/Hängen am Griffbrett2.mp4"
       },
       {
         "exercise": "Shrugs an Klimmzugstange",
