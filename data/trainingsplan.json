@@ -137,7 +137,7 @@
         "description": "3x8",
         "instructions": "Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
-        "video": "videos/Bizep-Curls mit Ringen.mp4",
+        "video": "videos/Bizeps-Curls mit Ringen.mp4",
         "counter": true,
         "maxCount": 3
       }
@@ -149,7 +149,7 @@
         "instructions": "Nutze den Tag zur aktiven Regeneration. Leichtes Stretching für Schultern, Rücken und Beine oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
         "counter": false,
-        "video": "videos/Pause und Streching.mp4"
+        "video": "videos/Pausen und Streching.mp4"
       }
     ],
     "Freitag": [
@@ -203,7 +203,7 @@
         "description": "Verschiedene Griffe – 3x20 Sekunden",
         "instructions": "Hänge dich an verschiedene Griffarten am Board (z. B. Crimps, Sloper) und halte möglichst gleichmäßig mit aktiver Schulter.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern (isometrisch).",
-        "video": "videos/I.mp4",
+        "video": "videos/Klimmzüge am Griffbrett.mp4",
         "counter": false,
         "duration": 20,
         "pauseDuration": 5,
@@ -221,7 +221,7 @@
         "description": "Schulteraktivierung – 3x10",
         "instructions": "Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, unterer Rücken.",
-        "video": "videos/Shrugs an Klimzugstange.mp4",
+        "video": "videos/Shrugs an Klimmzugstange.mp4",
         "counter": true,
         "maxCount": 3
       },
@@ -237,7 +237,7 @@
         "description": "3x8",
         "instructions": "Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen. ",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior",
-        "video": "videos/.mp4",
+        "video": "videos/Schulterstabilisationsübungen an Ringen ( y-Raices).mp4",
         "counter": true,
         "maxCount": 3
       }
@@ -249,7 +249,7 @@
         "instructions": "Mobilisiere Schultern und Wirbelsäule durch dynamische Dehnungen und leichte Kräftigungsübungen wie Wand-Slides oder Armkreise.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
         "counter": false,
-        "video": "videos/.mp4"
+        "video": "videos/Schulterübung.mp4"
       }
     ]
   },
