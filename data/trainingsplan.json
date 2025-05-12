@@ -10,8 +10,7 @@
         "counter": false,
         "duration": 7,
         "pauseDuration": 3,
-        "sets": 8,
-        "preparationTime": 5
+        "sets": 8
       },
       {
         "exercise": "Pause",
