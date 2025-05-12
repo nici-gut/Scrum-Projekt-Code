@@ -323,7 +323,7 @@
         "description": "Schräge tiefe Position – 4x10–12",
         "instructions": "Lehne dich zurück, halte deinen Körper gerade und ziehe dich an den Ringen zur Brust – kontrolliert, ohne Schwung.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Rückenstrecker, Core.",
-        "video": "videos/rudern-ringe.mp4",
+        "video": "videos/Rudern an Ringen.mp4",
         "counter": true,
         "maxCount": 4
       },
@@ -387,7 +387,7 @@
         "description": "4x10, engere Körperposition",
         "instructions": "Halte die Ringe nah am Körper und beuge die Arme kontrolliert aus der Kraft des Bizeps, während dein Körper stabil bleibt.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
-        "video": "videos/curls-ringe.mp4",
+        "video": "videos/Bizeps-Curls mit Ringen.mp4",
         "counter": true,
         "maxCount": 4
       }
@@ -398,7 +398,8 @@
         "description": "Optional Mobility-Training",
         "instructions": "Nutze den Tag zur aktiven Regeneration: Führe leichtes Stretching für Schultern, Rücken und Beine durch oder integriere Mobilitätsübungen wie Hüftöffner, Schulterkreisen und Cat-Cow – langsam und bewusst ausgeführt.",
         "musclegroup": "Ganzkörper-Mobilisation mit Fokus auf Schultern, Wirbelsäule, Hüfte und allgemeine Gelenkbeweglichkeit.",
-        "counter": false
+        "counter": false,
+        "video": "videos/Pausen und Streching.mp4"
       }
     ],
     "Freitag": [
@@ -407,7 +408,7 @@
         "description": "4x4–6 Wiederholungen",
         "instructions": "Ziehe dich einseitig hoch, während der andere Arm nur leicht unterstützt – Körperspannung und Kontrolle stehen im Fokus.",
         "musclegroup": "Latissimus, Bizeps, Core, Schulterstabilisatoren",
-        "video": "videos/archer-pullups.mp4",
+        "video": "videos/Archer Pull Ups.mp4",
         "counter": true,
         "maxCount": 4
       },
@@ -424,7 +425,7 @@
         "instructions": "Senke dich zwischen den Ringen langsam ab, bis die Oberarme waagerecht sind, und drücke dich dann kraftvoll wieder nach oben.",
         "musclegroup": "Brust, Trizeps, Schultern, Core.",
         "counter": true,
-        "video": "videos/ring-dips.mp4",
+        "video": "videos/Ring Dips.mp4",
         "maxCount": 4
       },
       {
@@ -468,7 +469,7 @@
         "description": "Schulteraktivierung – 4x12",
         "instructions": "Hänge dich mit gestreckten Armen auf, ziehe nur die Schultern kontrolliert nach oben, dann wieder nach unten – ohne Beugung der Arme.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, unterer Rücken.",
-        "video": "videos/shrugs.mp4",
+        "video": "videos/Shrugs an Klimmzugstange.mp4",
         "counter": true,
         "maxCount": 4
       },
@@ -484,7 +485,7 @@
         "instructions": "Führe langsame, kontrollierte Bewegungen mit den Armen an instabilen Ringen aus, z. B. Y-Raises oder Rotationen.",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
         "description": "4x10, tiefere Ringe",
-        "video": "videos/stabilisation-ringe.mp4",
+        "video": "videos/Schulterstabilisationsübungen an Ringen ( y-Raices).mp4",
         "counter": true,
         "maxCount": 4
       }
@@ -495,7 +496,7 @@
         "description": "Regeneration & intensiveres Mobility",
         "instructions": "Mobilisiere Schultern und Wirbelsäule durch dynamische Dehnungen und leichte Kräftigungsübungen wie Wand-Slides oder Armkreise.",
         "musclegroup": "Fokus auf Beweglichkeit und Gelenkpflege, keine Kraftbelastung.",
-        "video": "videos/.mp4",
+        "video": "videos/Schulterübung.mp4",
         "counter": false
       }
     ]
@@ -543,6 +544,7 @@
         "description": "5x3 mit Zusatzgewicht, breite Griffe",
         "instructions": "Ziehe dich mit Zusatzgewicht kontrolliert an mittleren bis breiten Griffen nach oben – ohne Schwung, Fokus auf Kraftausnutzung.",
         "musclegroup": "Latissimus, Bizeps, Trapez, Rhomboiden, Unterarme.",
+        "video": "videos/Klimmzüge am Griffbrett.mp4",
         "counter": true,
         "maxCount": 5
       }
@@ -553,6 +555,7 @@
         "description": "4x3 explosive Wiederholungen mit kurzer Haltephase",
         "instructions": "Ziehe dich explosiv an Kugeln hoch, halte kurz oben und lasse dich kontrolliert ab – hohe Körperspannung.",
         "musclegroup": "Latissimus, Bizeps, Griffkraft, Core, Schultern.",
+        "video": "videos/Klimmzüge an Kugeln.mp4",
         "counter": true,
         "maxCount": 4
       },
@@ -568,6 +571,7 @@
         "description": "5x8 in sehr flacher Position",
         "instructions": "Ziehe dich aus fast horizontaler Position kraftvoll an die Ringe – Rücken bleibt stabil, Schultern aktiv.",
         "musclegroup": "Rhomboiden, Trapez, Bizeps, Core, Rückenstrecker.",
+        "video": "videos/Rudern an Ringen.mp4",
         "counter": true,
         "maxCount": 5
       },
@@ -632,6 +636,7 @@
         "description": "4x10 mit Rumpfspannung",
         "instructions": "Ziehe die Ringe mit eng anliegendem Ellenbogen nach oben – kontrollierte Bewegung, kein Schwung.",
         "musclegroup": "Bizeps, Unterarme, Schulterstabilisatoren.",
+        "video": "videos/Bizeps-Curls mit Ringen.mp4",
         "counter": true,
         "maxCount": 4
       }
@@ -642,7 +647,9 @@
         "description": "Optional gezielte Dehnung & Faszienarbeit",
         "instructions": "Nutze den Tag für tiefgehende Mobilisation, z. B. mit langen Dehnungen, aktiven Schulterkreisen oder Faszienrollen.",
         "musclegroup": "Schultergelenke, Brustwirbelsäule, Hüfte, Core-Stabilität.",
-        "counter": false
+        "counter": false,
+        "video": "videos/Pausen und Streching.mp4"
+
       }
     ],
     "Freitag": [
@@ -651,6 +658,7 @@
         "description": "3x4 dynamisch mit kurzer Haltephase",
         "instructions": "Ziehe dich kraftvoll einseitig hoch, halte kurz oben und wechsle die Seite – Spannung im gesamten Körper.",
         "musclegroup": "Latissimus, Bizeps, Schultern, Core.",
+        "video": "videos/Archer Pull Ups.mp4",
         "counter": true,
         "maxCount": 3
       },
@@ -712,6 +720,7 @@
         "description": "4x10 mit betonter Kontraktion",
         "instructions": "Ziehe aus gestreckten Armen die Schultern explosiv nach oben und halte kurz, dann langsam ablassen.",
         "musclegroup": "Trapez, Schulterblattmuskulatur, Rücken.",
+        "video": "videos/Shrugs an Klimmzugstange.mp4",
         "counter": true,
         "maxCount": 4
       },
@@ -727,6 +736,7 @@
         "description": "4x10, z.B. Ring Y-Raises",
         "instructions": "Ausführung: Führe Y- oder T-Bewegungen an tief hängenden Ringen kontrolliert aus – Fokus auf Schulterführung.",
         "musclegroup": "Rotatorenmanschette, Trapez, Rhomboiden, Serratus anterior.",
+        "video": "videos/Schulterstabilisationsübungen an Ringen ( y-Raices).mp4",
         "counter": true,
         "maxCount": 4
       }
@@ -737,6 +747,7 @@
         "description": "Regeneration mit aktiver Mobilität",
         "instructions": "Ausführung: Nutze Bewegungsflüsse (z. B. Schulterkreise, Deep Squats, kontrollierte Armbewegungen) zur Regeneration.",
         "musclegroup": "Fokus auf Mobilisation ganzer Ketten, vor allem Schultern, Hüfte und Wirbelsäule.",
+        "video": "videos/Schulterübung.mp4",
         "counter": false
       }
     ]
