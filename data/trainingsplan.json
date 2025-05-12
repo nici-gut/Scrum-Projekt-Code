@@ -55,7 +55,7 @@
         "description": "3x3–5 Wiederholungen",
         "instructions": "Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich.",
         "musclegroup": "Latissimus, Bizeps, Griffmuskulatur, Schultern",
-        "video": "videos/.mp4",
+        "video": "videos/Klimmzüge Kugeln.mp4",
         "counter": true,
         "maxCount": 3
       },
@@ -306,7 +306,7 @@
         "description": "4x4–6 Wiederholungen mit Zusatzgewicht",
         "instructions": "Fasse hängende Kugeln und ziehe dich langsam hoch – das instabile Greifobjekt fordert Griffkraft und Körperspannung zusätzlich.",
         "musclegroup": "Latissimus, Bizeps, Griffmuskulatur, Schultern",
-        "video": "videos/.mp4",
+        "video": "videos/Klimmzüge Kugeln.mp4",
         "counter": true,
         "maxCount": 4
       },
@@ -558,7 +558,7 @@
         "description": "4x3 explosive Wiederholungen mit kurzer Haltephase",
         "instructions": "Ziehe dich explosiv an Kugeln hoch, halte kurz oben und lasse dich kontrolliert ab – hohe Körperspannung.",
         "musclegroup": "Latissimus, Bizeps, Griffkraft, Core, Schultern",
-        "video": "videos/.mp4",
+        "video": "videos/Klimmzüge Kugeln.mp4",
         "counter": true,
         "maxCount": 4
       },
