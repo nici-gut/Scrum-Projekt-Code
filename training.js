@@ -306,17 +306,23 @@ function ladeUebung(index) {
   }
 }
 
-// Funktion zum Anzeigen der Abschlussmeldung
+// Funktion zum Anzeigen der Abschlussmeldung mit Bild
 function zeigeAbschlussmeldung() {
   const meldung = document.createElement('div');
   meldung.id = 'abschlussmeldung';
-  meldung.textContent = "Herzlichen Glückwunsch, Sie haben das Workout erfolgreich beendet!";
+
+  // Bild hinzufügen
+  const bild = document.createElement('img');
+  bild.src = 'Bilder/Herzlichen Glückwunsch.png'; // Pfad zum Bild
+  bild.alt = 'Herzlichen Glückwunsch, Sie haben das Workout erfolgreich beendet!';
+  meldung.appendChild(bild);
+
   document.body.appendChild(meldung);
 
   setTimeout(() => {
     meldung.remove();
     window.location.href = "index.html";
-  }, 4000);
+  }, 4000); // Bild wird für 4 Sekunden angezeigt
 }
 
 // Training laden
