@@ -703,12 +703,12 @@
     "Samstag": [
       {
         "exercise": "Griffbrett-Hängen",
-        "description": "4x30 Sekunden mit Gewicht, verschiedene Griffe",
+        "description": "4x25 Sekunden mit Gewicht, verschiedene Griffe",
         "instructions": "Hänge an unterschiedlichen Griffen mit Zusatzgewicht – gleichmäßiger Druck und aktive Schulterhaltung.",
         "musclegroup": "Fingerbeuger, Unterarme, Schultern",
-        "video": "videos/Hängen am Griffbrett3.mp4",
+        "video": "videos/Hängen am Griffbrett2.mp4",
         "counter": false,
-        "duration": 30,
+        "duration": 25,
         "pauseDuration": 3,
         "sets": 4
       },
